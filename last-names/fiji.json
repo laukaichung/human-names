@@ -1,5 +1,4 @@
 {
-  "id": "Fiji",
   "countryId": 150,
   "names": [
     "Prasad",
@@ -52,5 +51,6 @@
     "Cavubati",
     "Nasilasila",
     "Rovay"
-  ]
+  ],
+  "countryName": "Fiji"
 }

@@ -1,1 +1,23 @@
-{"id":"Bangladesh","countryId":204,"maleNames":["Jamal","Topu","Anisur","Rakib","Fahim","Sohel","Mohammad","Biplo","Zoni","Emon"],"femaleNames":["Sabina","Maria","Akhi","Krishna","Tahura"]}
+{
+  "countryId": 204,
+  "maleNames": [
+    "Jamal",
+    "Topu",
+    "Anisur",
+    "Rakib",
+    "Fahim",
+    "Sohel",
+    "Mohammad",
+    "Biplo",
+    "Zoni",
+    "Emon"
+  ],
+  "femaleNames": [
+    "Sabina",
+    "Maria",
+    "Akhi",
+    "Krishna",
+    "Tahura"
+  ],
+  "countryName": "Bangladesh"
+}

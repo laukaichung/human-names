@@ -1,5 +1,4 @@
 {
-  "id": "Lesotho",
   "countryId": 155,
   "names": [
     "Mokhehle",
@@ -52,5 +51,6 @@
     "Ntai",
     "Liphoto",
     "Sekese"
-  ]
+  ],
+  "countryName": "Lesotho"
 }

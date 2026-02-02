@@ -1,5 +1,4 @@
 {
-  "id": "Sri Lanka",
   "countryId": 199,
   "names": [
     "Perera",
@@ -52,5 +51,6 @@
     "Udugama",
     "Vithanage",
     "Wanniarachchi"
-  ]
+  ],
+  "countryName": "Sri Lanka"
 }

@@ -1,5 +1,4 @@
 {
-  "id": "Algeria",
   "countryId": 47,
   "names": [
     "Mansouri",
@@ -52,5 +51,6 @@
     "Asselah",
     "Mbolhi",
     "Guedioura"
-  ]
+  ],
+  "countryName": "Algeria"
 }

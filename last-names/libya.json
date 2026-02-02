@@ -1,5 +1,4 @@
 {
-  "id": "Libya",
   "countryId": 120,
   "names": [
     "Gaddafi",
@@ -52,5 +51,6 @@
     "Al-Naas",
     "Al-Sadiq",
     "Al-Thani"
-  ]
+  ],
+  "countryName": "Libya"
 }

@@ -1,1 +1,23 @@
-{"id":"Dominica","countryId":218,"maleNames":["Briel","Julian","Glenson","Chad","Travis","Audel","Anfernee","Donan","Fitz","Javid"],"femaleNames":["Aaliyah","Briana","Jada","Shania","Tessa"]}
+{
+  "countryId": 218,
+  "maleNames": [
+    "Briel",
+    "Julian",
+    "Glenson",
+    "Chad",
+    "Travis",
+    "Audel",
+    "Anfernee",
+    "Donan",
+    "Fitz",
+    "Javid"
+  ],
+  "femaleNames": [
+    "Aaliyah",
+    "Briana",
+    "Jada",
+    "Shania",
+    "Tessa"
+  ],
+  "countryName": "Dominica"
+}

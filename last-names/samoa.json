@@ -1,5 +1,4 @@
 {
-  "id": "Samoa",
   "countryId": 186,
   "names": [
     "Tuilaepa",
@@ -52,5 +51,6 @@
     "Peleti",
     "Tui",
     "Sefo"
-  ]
+  ],
+  "countryName": "Samoa"
 }

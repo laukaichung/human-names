@@ -1,1 +1,28 @@
-{"id":"Madagascar","countryId":139,"maleNames":["Rayon","Loïc","Thomas","Romain","Kenji","Marco","Arnaud","Lalaina","Paulin","Ibrahim","Dorian","Mathias","Clément","Julien","Titouan"],"femaleNames":["Mialy","Fitia","Faneva","Aina","Voary"]}
+{
+  "countryId": 139,
+  "maleNames": [
+    "Rayon",
+    "Loïc",
+    "Thomas",
+    "Romain",
+    "Kenji",
+    "Marco",
+    "Arnaud",
+    "Lalaina",
+    "Paulin",
+    "Ibrahim",
+    "Dorian",
+    "Mathias",
+    "Clément",
+    "Julien",
+    "Titouan"
+  ],
+  "femaleNames": [
+    "Mialy",
+    "Fitia",
+    "Faneva",
+    "Aina",
+    "Voary"
+  ],
+  "countryName": "Madagascar"
+}

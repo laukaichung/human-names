@@ -1,1 +1,23 @@
-{"id":"Botswana","countryId":115,"maleNames":["Tumisang","Thatayaone","Mothusi","Kabelo","Segolame","Gape","Onkabetse","Thabo","Lebogang","Mogakolodi"],"femaleNames":["Amantle","Refilwe","Neo","Lesedi","Thato"]}
+{
+  "countryId": 115,
+  "maleNames": [
+    "Tumisang",
+    "Thatayaone",
+    "Mothusi",
+    "Kabelo",
+    "Segolame",
+    "Gape",
+    "Onkabetse",
+    "Thabo",
+    "Lebogang",
+    "Mogakolodi"
+  ],
+  "femaleNames": [
+    "Amantle",
+    "Refilwe",
+    "Neo",
+    "Lesedi",
+    "Thato"
+  ],
+  "countryName": "Botswana"
+}

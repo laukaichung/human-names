@@ -1,5 +1,4 @@
 {
-  "id": "American Samoa",
   "countryId": 185,
   "maleNames": [
     "Junior",
@@ -44,5 +43,6 @@
     "Tiare",
     "Vaitiare",
     "Moana"
-  ]
+  ],
+  "countryName": "American Samoa"
 }

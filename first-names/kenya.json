@@ -1,5 +1,4 @@
 {
-  "id": "Kenya",
   "countryId": 113,
   "maleNames": [
     "Michael",
@@ -18,5 +17,12 @@
     "Abud",
     "Kenneth"
   ],
-  "femaleNames": ["Faith", "Beatrice", "Mary", "Chepngetich", "Amani"]
+  "femaleNames": [
+    "Faith",
+    "Beatrice",
+    "Mary",
+    "Chepngetich",
+    "Amani"
+  ],
+  "countryName": "Kenya"
 }

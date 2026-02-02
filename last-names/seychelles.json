@@ -1,5 +1,4 @@
 {
-  "id": "Seychelles",
   "countryId": 222,
   "names": [
     "Ramkalawan",
@@ -52,5 +51,6 @@
     "Telemaque",
     "Uranie",
     "Zelia"
-  ]
+  ],
+  "countryName": "Seychelles"
 }

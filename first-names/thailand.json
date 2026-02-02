@@ -1,5 +1,4 @@
 {
-  "id": "Thailand",
   "countryId": 103,
   "maleNames": [
     "Chanathip",
@@ -44,5 +43,6 @@
     "Ratana",
     "Sunisa",
     "Malee"
-  ]
+  ],
+  "countryName": "Thailand"
 }

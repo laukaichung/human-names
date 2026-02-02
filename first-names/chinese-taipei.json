@@ -1,5 +1,4 @@
 {
-  "id": "Chinese Taipei",
   "countryId": 106,
   "maleNames": [
     "Chao-an",
@@ -44,5 +43,6 @@
     "Tzu-shan",
     "Wei-ping",
     "Su-ching"
-  ]
+  ],
+  "countryName": "Chinese Taipei"
 }

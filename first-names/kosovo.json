@@ -1,5 +1,4 @@
 {
-  "id": "Kosovo",
   "countryId": 79,
   "maleNames": [
     "Vedat",
@@ -18,5 +17,12 @@
     "Donat",
     "Zymer"
   ],
-  "femaleNames": ["Dafina", "Dua", "Era", "Rita", "Majlinda"]
+  "femaleNames": [
+    "Dafina",
+    "Dua",
+    "Era",
+    "Rita",
+    "Majlinda"
+  ],
+  "countryName": "Kosovo"
 }

@@ -1,5 +1,4 @@
 {
-  "id": "Afghanistan",
   "countryId": 172,
   "maleNames": [
     "Ahmad",
@@ -13,5 +12,12 @@
     "Farshad",
     "Omid"
   ],
-  "femaleNames": ["Maryam", "Fatima", "Zuhal", "Madina", "Lina"]
+  "femaleNames": [
+    "Maryam",
+    "Fatima",
+    "Zuhal",
+    "Madina",
+    "Lina"
+  ],
+  "countryName": "Afghanistan"
 }

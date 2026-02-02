@@ -1,1 +1,28 @@
-{"id":"Czechia","countryId":28,"maleNames":["Patrik","Tomáš","Adam","Jan","Ladislav","Vladimír","Antonín","Václav","David","Lukáš","Pavel","Petr","Jiří","Martin","Jaroslav"],"femaleNames":["Eliška","Anna","Adéla","Tereza","Sofie"]}
+{
+  "countryId": 28,
+  "maleNames": [
+    "Patrik",
+    "Tomáš",
+    "Adam",
+    "Jan",
+    "Ladislav",
+    "Vladimír",
+    "Antonín",
+    "Václav",
+    "David",
+    "Lukáš",
+    "Pavel",
+    "Petr",
+    "Jiří",
+    "Martin",
+    "Jaroslav"
+  ],
+  "femaleNames": [
+    "Eliška",
+    "Anna",
+    "Adéla",
+    "Tereza",
+    "Sofie"
+  ],
+  "countryName": "Czechia"
+}

@@ -1,1 +1,23 @@
-{"id":"Estonia","countryId":93,"maleNames":["Konstantin","Henri","Karl","Mattias","Rauno","Maksim","Joonas","Martin","Sergei","Ragnar"],"femaleNames":["Mia","Lenna","Sofia","Marta","Kirke"]}
+{
+  "countryId": 93,
+  "maleNames": [
+    "Konstantin",
+    "Henri",
+    "Karl",
+    "Mattias",
+    "Rauno",
+    "Maksim",
+    "Joonas",
+    "Martin",
+    "Sergei",
+    "Ragnar"
+  ],
+  "femaleNames": [
+    "Mia",
+    "Lenna",
+    "Sofia",
+    "Marta",
+    "Kirke"
+  ],
+  "countryName": "Estonia"
+}

@@ -1,5 +1,4 @@
 {
-  "id": "Nepal",
   "countryId": 191,
   "maleNames": [
     "Anjan",
@@ -44,5 +43,6 @@
     "Maya",
     "Bimala",
     "Laxmi"
-  ]
+  ],
+  "countryName": "Nepal"
 }

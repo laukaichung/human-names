@@ -1,1 +1,28 @@
-{"id":"Guinea-Bissau","countryId":112,"maleNames":["Mama","Dalcio","Moreto","Alfa","Mauro","Nanú","Opa","Jefferson","Zinho","Prosper","Janio","Sori","Fali","Houboulang","Jonas"],"femaleNames":["Adama","Fatoumata","Mariama","Binta","Isatou"]}
+{
+  "countryId": 112,
+  "maleNames": [
+    "Mama",
+    "Dalcio",
+    "Moreto",
+    "Alfa",
+    "Mauro",
+    "Nanú",
+    "Opa",
+    "Jefferson",
+    "Zinho",
+    "Prosper",
+    "Janio",
+    "Sori",
+    "Fali",
+    "Houboulang",
+    "Jonas"
+  ],
+  "femaleNames": [
+    "Adama",
+    "Fatoumata",
+    "Mariama",
+    "Binta",
+    "Isatou"
+  ],
+  "countryName": "Guinea-Bissau"
+}

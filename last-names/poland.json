@@ -1,5 +1,4 @@
 {
-  "id": "Poland",
   "countryId": 5,
   "names": [
     "Nowak",
@@ -52,5 +51,6 @@
     "Zalewski",
     "Duda",
     "Włodarczyk"
-  ]
+  ],
+  "countryName": "Poland"
 }

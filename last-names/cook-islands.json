@@ -1,5 +1,4 @@
 {
-  "id": "Cook Islands",
   "countryId": 216,
   "names": [
     "Marurai",
@@ -52,5 +51,6 @@
     "Tereapii",
     "Tiati",
     "Tuakeu"
-  ]
+  ],
+  "countryName": "Cook Islands"
 }

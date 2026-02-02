@@ -1,5 +1,4 @@
 {
-  "id": "North Korea",
   "countryId": 110,
   "maleNames": [
     "Kwang-song",
@@ -44,5 +43,6 @@
     "Un-hyang",
     "Hyon-gyong",
     "Hwa-sun"
-  ]
+  ],
+  "countryName": "North Korea"
 }

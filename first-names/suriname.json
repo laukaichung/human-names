@@ -1,5 +1,4 @@
 {
-  "id": "Suriname",
   "countryId": 137,
   "maleNames": [
     "Sheraldo",
@@ -44,5 +43,6 @@
     "Saskia",
     "Latifa",
     "Desiree"
-  ]
+  ],
+  "countryName": "Suriname"
 }

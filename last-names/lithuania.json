@@ -1,5 +1,4 @@
 {
-  "id": "Lithuania",
   "countryId": 151,
   "names": [
     "Kazlauskas",
@@ -52,5 +51,6 @@
     "Sinkevičius",
     "Linkevičius",
     "Anušauskas"
-  ]
+  ],
+  "countryName": "Lithuania"
 }

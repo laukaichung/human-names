@@ -1,1 +1,23 @@
-{"id":"Congo","countryId":140,"maleNames":["Merveil","Silvère","Gaius","Antoine","Béni","Morgan","Mons","Bryan","Yann","Fred"],"femaleNames":["Grace","Victoire","Chancelvie","Exaucée","Priscille"]}
+{
+  "countryId": 140,
+  "maleNames": [
+    "Merveil",
+    "Silvère",
+    "Gaius",
+    "Antoine",
+    "Béni",
+    "Morgan",
+    "Mons",
+    "Bryan",
+    "Yann",
+    "Fred"
+  ],
+  "femaleNames": [
+    "Grace",
+    "Victoire",
+    "Chancelvie",
+    "Exaucée",
+    "Priscille"
+  ],
+  "countryName": "Congo"
+}

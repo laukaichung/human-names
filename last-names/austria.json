@@ -1,5 +1,4 @@
 {
-  "id": "Austria",
   "countryId": 37,
   "names": [
     "Gruber",
@@ -52,5 +51,6 @@
     "Stadler",
     "Vogl",
     "Krenn"
-  ]
+  ],
+  "countryName": "Austria"
 }

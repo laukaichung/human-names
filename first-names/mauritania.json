@@ -1,1 +1,28 @@
-{"id":"Mauritania","countryId":195,"maleNames":["Aboubakar","Hemeya","Bodda","Lamine","Sidi","Guessouma","Idrissa","Aly","Souleymane","Babacar","Bakary","Hassan","Omar","Khassa","Abdou"],"femaleNames":["Mariem","Fatimetou","Aichetou","Zeynabu","Khady"]}
+{
+  "countryId": 195,
+  "maleNames": [
+    "Aboubakar",
+    "Hemeya",
+    "Bodda",
+    "Lamine",
+    "Sidi",
+    "Guessouma",
+    "Idrissa",
+    "Aly",
+    "Souleymane",
+    "Babacar",
+    "Bakary",
+    "Hassan",
+    "Omar",
+    "Khassa",
+    "Abdou"
+  ],
+  "femaleNames": [
+    "Mariem",
+    "Fatimetou",
+    "Aichetou",
+    "Zeynabu",
+    "Khady"
+  ],
+  "countryName": "Mauritania"
+}

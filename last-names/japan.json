@@ -1,5 +1,4 @@
 {
-  "id": "Japan",
   "countryId": 1,
   "names": [
     "Sato",
@@ -52,5 +51,6 @@
     "Iwasaki",
     "Sano",
     "Noguchi"
-  ]
+  ],
+  "countryName": "Japan"
 }

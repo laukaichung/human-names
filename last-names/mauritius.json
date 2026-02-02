@@ -1,5 +1,4 @@
 {
-  "id": "Mauritius",
   "countryId": 195,
   "names": [
     "Jugnauth",
@@ -52,5 +51,6 @@
     "Ittoo",
     "Jhurry",
     "Kistnen"
-  ]
+  ],
+  "countryName": "Mauritius"
 }

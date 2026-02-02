@@ -1,5 +1,4 @@
 {
-  "id": "Laos",
   "countryId": 220,
   "names": [
     "Phomvihane",
@@ -52,5 +51,6 @@
     "Choummaly",
     "Bounnhang",
     "Thongloun"
-  ]
+  ],
+  "countryName": "Laos"
 }

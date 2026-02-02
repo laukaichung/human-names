@@ -1,1 +1,28 @@
-{"id":"Fiji","countryId":150,"maleNames":["Roy","Thomas","Scott","Nabil","Sterling","Setareki","Filipe","Gabriele","Etonia","Sairusi","Anish","Afraz","Merrill","Isikeli","Joji"],"femaleNames":["Trina","Cema","Sofi","Koleta","Bella"]}
+{
+  "countryId": 150,
+  "maleNames": [
+    "Roy",
+    "Thomas",
+    "Scott",
+    "Nabil",
+    "Sterling",
+    "Setareki",
+    "Filipe",
+    "Gabriele",
+    "Etonia",
+    "Sairusi",
+    "Anish",
+    "Afraz",
+    "Merrill",
+    "Isikeli",
+    "Joji"
+  ],
+  "femaleNames": [
+    "Trina",
+    "Cema",
+    "Sofi",
+    "Koleta",
+    "Bella"
+  ],
+  "countryName": "Fiji"
+}

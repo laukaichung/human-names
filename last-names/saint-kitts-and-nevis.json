@@ -1,5 +1,4 @@
 {
-  "id": "Saint Kitts and Nevis",
   "countryId": 164,
   "names": [
     "Douglas",
@@ -52,5 +51,6 @@
     "Challenger",
     "Boddie",
     "Arthurton"
-  ]
+  ],
+  "countryName": "Saint Kitts and Nevis"
 }

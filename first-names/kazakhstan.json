@@ -1,5 +1,4 @@
 {
-  "id": "Kazakhstan",
   "countryId": 101,
   "maleNames": [
     "Bakhtiyor",
@@ -18,5 +17,12 @@
     "Bagdat",
     "Aleksandr"
   ],
-  "femaleNames": ["Alua", "Aisulu", "Madina", "Ayana", "Zhanar"]
+  "femaleNames": [
+    "Alua",
+    "Aisulu",
+    "Madina",
+    "Ayana",
+    "Zhanar"
+  ],
+  "countryName": "Kazakhstan"
 }

@@ -1,5 +1,4 @@
 {
-  "id": "San Marino",
   "countryId": 193,
   "names": [
     "Bertii",
@@ -52,5 +51,6 @@
     "Volpinari",
     "Zanotti",
     "Zonzini"
-  ]
+  ],
+  "countryName": "San Marino"
 }

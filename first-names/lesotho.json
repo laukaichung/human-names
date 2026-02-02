@@ -1,1 +1,28 @@
-{"id":"Lesotho","countryId":155,"maleNames":["Motebang","Jane","Katleho","Thabo","Tsepang","Lesia","Rethabile","Neo","Tumelo","Mohlomi","Tshwarelo","Sello","Sekhoane","Thabiso","Kopano"],"femaleNames":["Lerato","Mpho","Palesa","Nthabiseng","Khotsofalang"]}
+{
+  "countryId": 155,
+  "maleNames": [
+    "Motebang",
+    "Jane",
+    "Katleho",
+    "Thabo",
+    "Tsepang",
+    "Lesia",
+    "Rethabile",
+    "Neo",
+    "Tumelo",
+    "Mohlomi",
+    "Tshwarelo",
+    "Sello",
+    "Sekhoane",
+    "Thabiso",
+    "Kopano"
+  ],
+  "femaleNames": [
+    "Lerato",
+    "Mpho",
+    "Palesa",
+    "Nthabiseng",
+    "Khotsofalang"
+  ],
+  "countryName": "Lesotho"
+}

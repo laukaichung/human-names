@@ -1,5 +1,4 @@
 {
-  "id": "North Macedonia",
   "countryId": 76,
   "maleNames": [
     "Enis",
@@ -44,5 +43,6 @@
     "Ivana",
     "Milica",
     "Sofija"
-  ]
+  ],
+  "countryName": "North Macedonia"
 }

@@ -1,1 +1,23 @@
-{"id":"Cuba","countryId":127,"maleNames":["Onel","Luis","Maikel","Yosel","Yasniel","Karel","Daniel","Yunior","Jorge","Carlos"],"femaleNames":["Maria","Yoana","Liset","Yaritza","Dianelis"]}
+{
+  "countryId": 127,
+  "maleNames": [
+    "Onel",
+    "Luis",
+    "Maikel",
+    "Yosel",
+    "Yasniel",
+    "Karel",
+    "Daniel",
+    "Yunior",
+    "Jorge",
+    "Carlos"
+  ],
+  "femaleNames": [
+    "Maria",
+    "Yoana",
+    "Liset",
+    "Yaritza",
+    "Dianelis"
+  ],
+  "countryName": "Cuba"
+}

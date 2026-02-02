@@ -1,5 +1,4 @@
 {
-  "id": "Hungary",
   "countryId": 22,
   "names": [
     "Nagy",
@@ -52,5 +51,6 @@
     "Gál",
     "Lukács",
     "Pál"
-  ]
+  ],
+  "countryName": "Hungary"
 }

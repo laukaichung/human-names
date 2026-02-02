@@ -1,5 +1,4 @@
 {
-  "id": "Azerbaijan",
   "countryId": 87,
   "names": [
     "Aliyev",
@@ -52,5 +51,6 @@
     "Alizade",
     "Mardanov",
     "Bayramov"
-  ]
+  ],
+  "countryName": "Azerbaijan"
 }

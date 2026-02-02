@@ -1,5 +1,4 @@
 {
-  "id": "Uganda",
   "countryId": 98,
   "names": [
     "Mugisha",
@@ -52,5 +51,6 @@
     "Baryomunsi",
     "Ecweru",
     "Kibuule"
-  ]
+  ],
+  "countryName": "Uganda"
 }

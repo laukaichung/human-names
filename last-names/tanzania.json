@@ -1,5 +1,4 @@
 {
-  "id": "Tanzania",
   "countryId": 134,
   "names": [
     "Mushi",
@@ -52,5 +51,6 @@
     "Magufuli",
     "Mwinyi",
     "Nyerere"
-  ]
+  ],
+  "countryName": "Tanzania"
 }

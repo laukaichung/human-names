@@ -1,5 +1,4 @@
 {
-  "id": "Sri Lanka",
   "countryId": 199,
   "maleNames": [
     "Charith",
@@ -44,5 +43,6 @@
     "Hashini",
     "Kavindi",
     "Hansini"
-  ]
+  ],
+  "countryName": "Sri Lanka"
 }

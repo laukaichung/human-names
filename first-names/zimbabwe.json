@@ -1,5 +1,4 @@
 {
-  "id": "Zimbabwe",
   "countryId": 132,
   "maleNames": [
     "Khama",
@@ -44,5 +43,6 @@
     "Zanele",
     "Farai",
     "Rutendo"
-  ]
+  ],
+  "countryName": "Zimbabwe"
 }

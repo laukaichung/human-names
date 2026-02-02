@@ -1,1 +1,23 @@
-{"id":"Angola","countryId":97,"maleNames":["Gelson","Zito","Fredy","Mabululu","Show","Kialonda","Zini","Eddie","Milson","Nurio"],"femaleNames":["Esperança","Teresa","Maria","Suzana","Helena"]}
+{
+  "countryId": 97,
+  "maleNames": [
+    "Gelson",
+    "Zito",
+    "Fredy",
+    "Mabululu",
+    "Show",
+    "Kialonda",
+    "Zini",
+    "Eddie",
+    "Milson",
+    "Nurio"
+  ],
+  "femaleNames": [
+    "Esperança",
+    "Teresa",
+    "Maria",
+    "Suzana",
+    "Helena"
+  ],
+  "countryName": "Angola"
+}

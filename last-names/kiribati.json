@@ -1,5 +1,4 @@
 {
-  "id": "Kiribati",
   "countryId": 221,
   "names": [
     "Teabo",
@@ -52,5 +51,6 @@
     "Terubentau",
     "Tooma",
     "Uatito"
-  ]
+  ],
+  "countryName": "Kiribati"
 }

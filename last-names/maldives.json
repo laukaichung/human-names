@@ -1,5 +1,4 @@
 {
-  "id": "Maldives",
   "countryId": 190,
   "names": [
     "Nasheed",
@@ -52,5 +51,6 @@
     "Niyaz",
     "Siam",
     "Ziyad"
-  ]
+  ],
+  "countryName": "Maldives"
 }

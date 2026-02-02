@@ -1,5 +1,4 @@
 {
-  "id": "Ghana",
   "countryId": 67,
   "names": [
     "Mensah",
@@ -52,5 +51,6 @@
     "Lamptey",
     "Semeyo",
     "Paintsil"
-  ]
+  ],
+  "countryName": "Ghana"
 }

@@ -1,5 +1,4 @@
 {
-  "id": "Ivory Coast",
   "countryId": 50,
   "names": [
     "Kouadio",
@@ -52,5 +51,6 @@
     "Kouakou",
     "Aka",
     "Assi"
-  ]
+  ],
+  "countryName": "Ivory Coast"
 }

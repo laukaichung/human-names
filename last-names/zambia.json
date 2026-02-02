@@ -1,5 +1,4 @@
 {
-  "id": "Zambia",
   "countryId": 85,
   "names": [
     "Banda",
@@ -52,5 +51,6 @@
     "Kambwili",
     "Lusambo",
     "Lubinda"
-  ]
+  ],
+  "countryName": "Zambia"
 }

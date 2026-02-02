@@ -1,5 +1,4 @@
 {
-  "id": "UK Virgin Islands",
   "countryId": 215,
   "names": [
     "Frett",
@@ -52,5 +51,6 @@
     "Varlack",
     "Warner",
     "Willock"
-  ]
+  ],
+  "countryName": "UK Virgin Islands"
 }

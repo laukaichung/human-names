@@ -1,5 +1,4 @@
 {
-  "id": "Finland",
   "countryId": 46,
   "names": [
     "Korhonen",
@@ -52,5 +51,6 @@
     "Sipilä",
     "Kallio",
     "Hakala"
-  ]
+  ],
+  "countryName": "Finland"
 }

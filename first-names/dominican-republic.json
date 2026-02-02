@@ -1,1 +1,23 @@
-{"id":"Dominican Republic","countryId":165,"maleNames":["Junior","Dorny","Jean","Luiyi","Heinz","Edison","Ronaldo","Nowend","Pascual","Miguel"],"femaleNames":["Altagracia","Milagros","Yudelka","Rosa","Carmen"]}
+{
+  "countryId": 165,
+  "maleNames": [
+    "Junior",
+    "Dorny",
+    "Jean",
+    "Luiyi",
+    "Heinz",
+    "Edison",
+    "Ronaldo",
+    "Nowend",
+    "Pascual",
+    "Miguel"
+  ],
+  "femaleNames": [
+    "Altagracia",
+    "Milagros",
+    "Yudelka",
+    "Rosa",
+    "Carmen"
+  ],
+  "countryName": "Dominican Republic"
+}

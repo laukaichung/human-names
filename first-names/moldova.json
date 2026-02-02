@@ -1,1 +1,28 @@
-{"id":"Moldova","countryId":154,"maleNames":["Ion","Oleg","Artur","Vadim","Veaceslav","Vitalie","Sergiu","Maxim","Nichita","Mihail","Victor","Igor","Denis","Dmitri","Cristian"],"femaleNames":["Nicoleta","Doina","Elena","Alina","Anastasia"]}
+{
+  "countryId": 154,
+  "maleNames": [
+    "Ion",
+    "Oleg",
+    "Artur",
+    "Vadim",
+    "Veaceslav",
+    "Vitalie",
+    "Sergiu",
+    "Maxim",
+    "Nichita",
+    "Mihail",
+    "Victor",
+    "Igor",
+    "Denis",
+    "Dmitri",
+    "Cristian"
+  ],
+  "femaleNames": [
+    "Nicoleta",
+    "Doina",
+    "Elena",
+    "Alina",
+    "Anastasia"
+  ],
+  "countryName": "Moldova"
+}

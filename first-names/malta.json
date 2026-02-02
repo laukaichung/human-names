@@ -1,1 +1,28 @@
-{"id":"Malta","countryId":147,"maleNames":["Teddy","Matthew","Jodi","Luke","Zach","Kemar","Ryan","Enrico","Joseph","Steve","Cain","Yannick","Kyrian","Dunstan","Jean"],"femaleNames":["Emma","Valentina","Julia","Elena","Maria"]}
+{
+  "countryId": 147,
+  "maleNames": [
+    "Teddy",
+    "Matthew",
+    "Jodi",
+    "Luke",
+    "Zach",
+    "Kemar",
+    "Ryan",
+    "Enrico",
+    "Joseph",
+    "Steve",
+    "Cain",
+    "Yannick",
+    "Kyrian",
+    "Dunstan",
+    "Jean"
+  ],
+  "femaleNames": [
+    "Emma",
+    "Valentina",
+    "Julia",
+    "Elena",
+    "Maria"
+  ],
+  "countryName": "Malta"
+}

@@ -1,5 +1,4 @@
 {
-  "id": "Jordan",
   "countryId": 63,
   "names": [
     "Al-Majali",
@@ -52,5 +51,6 @@
     "Al-Tall",
     "Al-Urayqat",
     "Al-Waked"
-  ]
+  ],
+  "countryName": "Jordan"
 }

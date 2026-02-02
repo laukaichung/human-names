@@ -1,5 +1,4 @@
 {
-  "id": "Zambia",
   "countryId": 85,
   "maleNames": [
     "Patson",
@@ -44,5 +43,6 @@
     "Kondwani",
     "Nisile",
     "Thandiwe"
-  ]
+  ],
+  "countryName": "Zambia"
 }

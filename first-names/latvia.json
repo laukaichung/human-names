@@ -1,1 +1,28 @@
-{"id":"Latvia","countryId":122,"maleNames":["Raimonds","Kristers","Daniels","Kaspars","Roberts","Andrejs","Aleksejs","Maksims","Vladislavs","Jānis","Alvis","Eduards","Vitālijs","Raivis","Artūrs"],"femaleNames":["Līga","Marta","Elīna","Sofija","Anna"]}
+{
+  "countryId": 122,
+  "maleNames": [
+    "Raimonds",
+    "Kristers",
+    "Daniels",
+    "Kaspars",
+    "Roberts",
+    "Andrejs",
+    "Aleksejs",
+    "Maksims",
+    "Vladislavs",
+    "Jānis",
+    "Alvis",
+    "Eduards",
+    "Vitālijs",
+    "Raivis",
+    "Artūrs"
+  ],
+  "femaleNames": [
+    "Līga",
+    "Marta",
+    "Elīna",
+    "Sofija",
+    "Anna"
+  ],
+  "countryName": "Latvia"
+}

@@ -1,5 +1,4 @@
 {
-  "id": "Kyrgyzstan",
   "countryId": 146,
   "maleNames": [
     "Gulzhigit",
@@ -18,5 +17,12 @@
     "Kimi",
     "Farhat"
   ],
-  "femaleNames": ["Aisuluu", "Bektur", "Meerim", "Adel", "Aruuke"]
+  "femaleNames": [
+    "Aisuluu",
+    "Bektur",
+    "Meerim",
+    "Adel",
+    "Aruuke"
+  ],
+  "countryName": "Kyrgyzstan"
 }

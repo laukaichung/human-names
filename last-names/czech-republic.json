@@ -1,5 +1,4 @@
 {
-  "id": "Czech Republic",
   "countryId": 28,
   "names": [
     "Novák",
@@ -52,5 +51,6 @@
     "Moravec",
     "Tichý",
     "Matoušek"
-  ]
+  ],
+  "countryName": "Czech Republic"
 }

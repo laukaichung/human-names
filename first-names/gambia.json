@@ -1,1 +1,28 @@
-{"id":"Gambia","countryId":90,"maleNames":["Musa","Yankuba","Alieu","Ebrima","Omar","Assan","Ablie","Saikou","Bubacarr","Hamza","Muhammed","Abubakr","Modou","Lamin","Sheriff"],"femaleNames":["Fatou","Mariama","Binta","Isatou","Jainaba"]}
+{
+  "countryId": 90,
+  "maleNames": [
+    "Musa",
+    "Yankuba",
+    "Alieu",
+    "Ebrima",
+    "Omar",
+    "Assan",
+    "Ablie",
+    "Saikou",
+    "Bubacarr",
+    "Hamza",
+    "Muhammed",
+    "Abubakr",
+    "Modou",
+    "Lamin",
+    "Sheriff"
+  ],
+  "femaleNames": [
+    "Fatou",
+    "Mariama",
+    "Binta",
+    "Isatou",
+    "Jainaba"
+  ],
+  "countryName": "Gambia"
+}

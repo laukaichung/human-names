@@ -1,5 +1,4 @@
 {
-  "id": "South Sudan",
   "countryId": 174,
   "names": [
     "Kiir",
@@ -52,5 +51,6 @@
     "Konyi",
     "Mulla",
     "Loro"
-  ]
+  ],
+  "countryName": "South Sudan"
 }

@@ -1,5 +1,4 @@
 {
-  "id": "Vietnam",
   "countryId": 102,
   "maleNames": [
     "Quang",
@@ -44,5 +43,6 @@
     "Hien",
     "Trang",
     "Yen"
-  ]
+  ],
+  "countryName": "Vietnam"
 }

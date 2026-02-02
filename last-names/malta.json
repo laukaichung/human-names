@@ -1,5 +1,4 @@
 {
-  "id": "Malta",
   "countryId": 147,
   "names": [
     "Borg",
@@ -52,5 +51,6 @@
     "Zerafa",
     "Baldacchino",
     "Calleja"
-  ]
+  ],
+  "countryName": "Malta"
 }

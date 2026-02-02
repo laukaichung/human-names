@@ -1,5 +1,4 @@
 {
-  "id": "Kazakhstan",
   "countryId": 101,
   "names": [
     "Kuznetsov",
@@ -52,5 +51,6 @@
     "Asylbekov",
     "Nurzhanov",
     "Zhenisov"
-  ]
+  ],
+  "countryName": "Kazakhstan"
 }

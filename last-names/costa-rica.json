@@ -1,5 +1,4 @@
 {
-  "id": "Costa Rica",
   "countryId": 38,
   "names": [
     "Rodriguez",
@@ -52,5 +51,6 @@
     "Ledesma",
     "Paz",
     "Vera"
-  ]
+  ],
+  "countryName": "Costa Rica"
 }

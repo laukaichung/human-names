@@ -1,5 +1,4 @@
 {
-  "id": "Faroe Islands",
   "countryId": 136,
   "names": [
     "Joensen",
@@ -52,5 +51,6 @@
     "Johansen",
     "Tausen",
     "Nónsgjógv"
-  ]
+  ],
+  "countryName": "Faroe Islands"
 }

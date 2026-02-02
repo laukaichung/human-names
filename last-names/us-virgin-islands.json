@@ -1,5 +1,4 @@
 {
-  "id": "US Virgin Islands",
   "countryId": 202,
   "names": [
     "Hodge",
@@ -52,5 +51,6 @@
     "Dore",
     "Pinney",
     "Walters"
-  ]
+  ],
+  "countryName": "US Virgin Islands"
 }

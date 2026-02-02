@@ -1,1 +1,23 @@
-{"id":"Cyprus","countryId":116,"maleNames":["Pieros","Loizos","Grigoris","Marinos","Kostas","Andreas","Stelios","Charalambos","Ioannis","Michalis"],"femaleNames":["Maria","Eleni","Androulla","Georgia","Anna"]}
+{
+  "countryId": 116,
+  "maleNames": [
+    "Pieros",
+    "Loizos",
+    "Grigoris",
+    "Marinos",
+    "Kostas",
+    "Andreas",
+    "Stelios",
+    "Charalambos",
+    "Ioannis",
+    "Michalis"
+  ],
+  "femaleNames": [
+    "Maria",
+    "Eleni",
+    "Androulla",
+    "Georgia",
+    "Anna"
+  ],
+  "countryName": "Cyprus"
+}

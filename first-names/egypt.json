@@ -1,1 +1,28 @@
-{"id":"Egypt","countryId":52,"maleNames":["Mohamed","Mostafa","Omar","Mahmoud","Trezeguet","Hamdi","Ahmed","Marwan","Zizo","Emam","Ibrahim","Hossam","Essam","Wael","Hany"],"femaleNames":["Fatma","Sahar","Aya","Nour","Mona"]}
+{
+  "countryId": 52,
+  "maleNames": [
+    "Mohamed",
+    "Mostafa",
+    "Omar",
+    "Mahmoud",
+    "Trezeguet",
+    "Hamdi",
+    "Ahmed",
+    "Marwan",
+    "Zizo",
+    "Emam",
+    "Ibrahim",
+    "Hossam",
+    "Essam",
+    "Wael",
+    "Hany"
+  ],
+  "femaleNames": [
+    "Fatma",
+    "Sahar",
+    "Aya",
+    "Nour",
+    "Mona"
+  ],
+  "countryName": "Egypt"
+}

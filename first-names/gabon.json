@@ -1,1 +1,28 @@
-{"id":"Gabon","countryId":81,"maleNames":["Pierre-Emerick","Denis","Mario","André","Guelor","Jim","Aaron","Johann","Bruno","Jacques","Anthony","Shavy","Lukas","Loce","Jonathan"],"femaleNames":["Prudence","Saphir","Marlyse","Flora","Lydie"]}
+{
+  "countryId": 81,
+  "maleNames": [
+    "Pierre-Emerick",
+    "Denis",
+    "Mario",
+    "André",
+    "Guelor",
+    "Jim",
+    "Aaron",
+    "Johann",
+    "Bruno",
+    "Jacques",
+    "Anthony",
+    "Shavy",
+    "Lukas",
+    "Loce",
+    "Jonathan"
+  ],
+  "femaleNames": [
+    "Prudence",
+    "Saphir",
+    "Marlyse",
+    "Flora",
+    "Lydie"
+  ],
+  "countryName": "Gabon"
+}

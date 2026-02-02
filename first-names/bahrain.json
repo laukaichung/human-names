@@ -1,1 +1,23 @@
-{"id":"Bahrain","countryId":80,"maleNames":["Sayed","Abdulla","Kamil","Ali","Mohamed","Mahdi","Jasim","Waleed","Hamad","Talal"],"femaleNames":["Fatima","Mariam","Noora","Sara","Hessa"]}
+{
+  "countryId": 80,
+  "maleNames": [
+    "Sayed",
+    "Abdulla",
+    "Kamil",
+    "Ali",
+    "Mohamed",
+    "Mahdi",
+    "Jasim",
+    "Waleed",
+    "Hamad",
+    "Talal"
+  ],
+  "femaleNames": [
+    "Fatima",
+    "Mariam",
+    "Noora",
+    "Sara",
+    "Hessa"
+  ],
+  "countryName": "Bahrain"
+}

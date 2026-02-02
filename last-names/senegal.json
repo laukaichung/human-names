@@ -1,5 +1,4 @@
 {
-  "id": "Senegal",
   "countryId": 47,
   "names": [
     "Diop",
@@ -52,5 +51,6 @@
     "Tall",
     "Tine",
     "Youm"
-  ]
+  ],
+  "countryName": "Senegal"
 }

@@ -1,5 +1,4 @@
 {
-  "id": "Ecuador",
   "countryId": 32,
   "maleNames": [
     "Luis",
@@ -64,5 +63,6 @@
     "Elizabeth",
     "Jessica",
     "Paola"
-  ]
+  ],
+  "countryName": "Ecuador"
 }
