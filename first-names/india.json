@@ -17,12 +17,5 @@
     "Jeakson",
     "Suresh"
   ],
-  "femaleNames": [
-    "Anishka",
-    "Aaradhya",
-    "Vihaan",
-    "Saanvi",
-    "Myra"
-  ],
-  "countryName": "India"
+  "femaleNames": ["Anishka", "Aaradhya", "Vihaan", "Saanvi", "Myra"]
 }

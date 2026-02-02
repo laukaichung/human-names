@@ -17,12 +17,5 @@
     "Loce",
     "Jonathan"
   ],
-  "femaleNames": [
-    "Prudence",
-    "Saphir",
-    "Marlyse",
-    "Flora",
-    "Lydie"
-  ],
-  "countryName": "Gabon"
+  "femaleNames": ["Prudence", "Saphir", "Marlyse", "Flora", "Lydie"]
 }

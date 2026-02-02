@@ -17,12 +17,5 @@
     "Phoutthavong",
     "Xaysana"
   ],
-  "femaleNames": [
-    "Mali",
-    "Bouapha",
-    "Chanpheng",
-    "Keo",
-    "Davanh"
-  ],
-  "countryName": "Laos"
+  "femaleNames": ["Mali", "Bouapha", "Chanpheng", "Keo", "Davanh"]
 }

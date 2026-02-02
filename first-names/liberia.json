@@ -17,12 +17,5 @@
     "Jamal",
     "Seth"
   ],
-  "femaleNames": [
-    "Princess",
-    "Blessing",
-    "Comfort",
-    "Faith",
-    "Musu"
-  ],
-  "countryName": "Liberia"
+  "femaleNames": ["Princess", "Blessing", "Comfort", "Faith", "Musu"]
 }

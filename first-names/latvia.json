@@ -17,12 +17,5 @@
     "Raivis",
     "Artūrs"
   ],
-  "femaleNames": [
-    "Līga",
-    "Marta",
-    "Elīna",
-    "Sofija",
-    "Anna"
-  ],
-  "countryName": "Latvia"
+  "femaleNames": ["Līga", "Marta", "Elīna", "Sofija", "Anna"]
 }

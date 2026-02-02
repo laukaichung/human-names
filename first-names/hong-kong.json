@@ -17,12 +17,5 @@
     "Yue",
     "Gerane"
   ],
-  "femaleNames": [
-    "Wing",
-    "Yan",
-    "Mei",
-    "Tsz",
-    "Hoi"
-  ],
-  "countryName": "Hong Kong"
+  "femaleNames": ["Wing", "Yan", "Mei", "Tsz", "Hoi"]
 }

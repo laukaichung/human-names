@@ -12,12 +12,5 @@
     "Jorge",
     "Carlos"
   ],
-  "femaleNames": [
-    "Maria",
-    "Yoana",
-    "Liset",
-    "Yaritza",
-    "Dianelis"
-  ],
-  "countryName": "Cuba"
+  "femaleNames": ["Maria", "Yoana", "Liset", "Yaritza", "Dianelis"]
 }

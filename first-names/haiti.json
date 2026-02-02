@@ -17,12 +17,5 @@
     "Danley",
     "Bicou"
   ],
-  "femaleNames": [
-    "Naomi",
-    "Melchie",
-    "Sherly",
-    "Kethna",
-    "Tabita"
-  ],
-  "countryName": "Haiti"
+  "femaleNames": ["Naomi", "Melchie", "Sherly", "Kethna", "Tabita"]
 }

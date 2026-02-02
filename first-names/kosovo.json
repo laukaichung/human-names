@@ -17,12 +17,5 @@
     "Donat",
     "Zymer"
   ],
-  "femaleNames": [
-    "Dafina",
-    "Dua",
-    "Era",
-    "Rita",
-    "Majlinda"
-  ],
-  "countryName": "Kosovo"
+  "femaleNames": ["Dafina", "Dua", "Era", "Rita", "Majlinda"]
 }

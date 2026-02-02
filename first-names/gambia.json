@@ -17,12 +17,5 @@
     "Lamin",
     "Sheriff"
   ],
-  "femaleNames": [
-    "Fatou",
-    "Mariama",
-    "Binta",
-    "Isatou",
-    "Jainaba"
-  ],
-  "countryName": "Gambia"
+  "femaleNames": ["Fatou", "Mariama", "Binta", "Isatou", "Jainaba"]
 }

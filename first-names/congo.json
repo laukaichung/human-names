@@ -12,12 +12,5 @@
     "Yann",
     "Fred"
   ],
-  "femaleNames": [
-    "Grace",
-    "Victoire",
-    "Chancelvie",
-    "Exaucée",
-    "Priscille"
-  ],
-  "countryName": "Congo"
+  "femaleNames": ["Grace", "Victoire", "Chancelvie", "Exaucée", "Priscille"]
 }

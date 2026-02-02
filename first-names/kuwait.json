@@ -17,12 +17,5 @@
     "Yousef",
     "Khaled"
   ],
-  "femaleNames": [
-    "Fatima",
-    "Maryam",
-    "Lulwa",
-    "Noura",
-    "Hessa"
-  ],
-  "countryName": "Kuwait"
+  "femaleNames": ["Fatima", "Maryam", "Lulwa", "Noura", "Hessa"]
 }

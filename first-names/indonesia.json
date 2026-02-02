@@ -17,12 +17,5 @@
     "Ragnar",
     "Thom"
   ],
-  "femaleNames": [
-    "Siti",
-    "Putri",
-    "Ayu",
-    "Ratna",
-    "Dewi"
-  ],
-  "countryName": "Indonesia"
+  "femaleNames": ["Siti", "Putri", "Ayu", "Ratna", "Dewi"]
 }

@@ -12,12 +12,5 @@
     "Hamad",
     "Talal"
   ],
-  "femaleNames": [
-    "Fatima",
-    "Mariam",
-    "Noora",
-    "Sara",
-    "Hessa"
-  ],
-  "countryName": "Bahrain"
+  "femaleNames": ["Fatima", "Mariam", "Noora", "Sara", "Hessa"]
 }

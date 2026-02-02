@@ -17,12 +17,5 @@
     "Abud",
     "Kenneth"
   ],
-  "femaleNames": [
-    "Faith",
-    "Beatrice",
-    "Mary",
-    "Chepngetich",
-    "Amani"
-  ],
-  "countryName": "Kenya"
+  "femaleNames": ["Faith", "Beatrice", "Mary", "Chepngetich", "Amani"]
 }

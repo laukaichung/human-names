@@ -17,12 +17,5 @@
     "Khassa",
     "Abdou"
   ],
-  "femaleNames": [
-    "Mariem",
-    "Fatimetou",
-    "Aichetou",
-    "Zeynabu",
-    "Khady"
-  ],
-  "countryName": "Mauritania"
+  "femaleNames": ["Mariem", "Fatimetou", "Aichetou", "Zeynabu", "Khady"]
 }

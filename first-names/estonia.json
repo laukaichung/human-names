@@ -12,12 +12,5 @@
     "Sergei",
     "Ragnar"
   ],
-  "femaleNames": [
-    "Mia",
-    "Lenna",
-    "Sofia",
-    "Marta",
-    "Kirke"
-  ],
-  "countryName": "Estonia"
+  "femaleNames": ["Mia", "Lenna", "Sofia", "Marta", "Kirke"]
 }

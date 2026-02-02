@@ -17,12 +17,5 @@
     "Dorian",
     "Esteban"
   ],
-  "femaleNames": [
-    "Genoveva",
-    "Jade",
-    "Adriana",
-    "Dorine",
-    "Chinasa"
-  ],
-  "countryName": "Equatorial Guinea"
+  "femaleNames": ["Genoveva", "Jade", "Adriana", "Dorine", "Chinasa"]
 }

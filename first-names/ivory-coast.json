@@ -17,12 +17,5 @@
     "Jeremie",
     "Hamari"
   ],
-  "femaleNames": [
-    "Marie",
-    "Aminata",
-    "Fatoumata",
-    "Awa",
-    "Konnie"
-  ],
-  "countryName": "Ivory Coast"
+  "femaleNames": ["Marie", "Aminata", "Fatoumata", "Awa", "Konnie"]
 }

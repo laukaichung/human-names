@@ -17,12 +17,5 @@
     "Julien",
     "Titouan"
   ],
-  "femaleNames": [
-    "Mialy",
-    "Fitia",
-    "Faneva",
-    "Aina",
-    "Voary"
-  ],
-  "countryName": "Madagascar"
+  "femaleNames": ["Mialy", "Fitia", "Faneva", "Aina", "Voary"]
 }

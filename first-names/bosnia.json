@@ -17,12 +17,5 @@
     "Smail",
     "Eldar"
   ],
-  "femaleNames": [
-    "Ajla",
-    "Emina",
-    "Lejla",
-    "Amra",
-    "Hana"
-  ],
-  "countryName": "Bosnia"
+  "femaleNames": ["Ajla", "Emina", "Lejla", "Amra", "Hana"]
 }

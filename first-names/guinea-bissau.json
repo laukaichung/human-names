@@ -17,12 +17,5 @@
     "Houboulang",
     "Jonas"
   ],
-  "femaleNames": [
-    "Adama",
-    "Fatoumata",
-    "Mariama",
-    "Binta",
-    "Isatou"
-  ],
-  "countryName": "Guinea-Bissau"
+  "femaleNames": ["Adama", "Fatoumata", "Mariama", "Binta", "Isatou"]
 }

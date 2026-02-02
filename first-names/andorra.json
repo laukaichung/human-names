@@ -12,12 +12,5 @@
     "Ferran",
     "Max"
   ],
-  "femaleNames": [
-    "Maria",
-    "Laia",
-    "Anna",
-    "Montserrat",
-    "Berta"
-  ],
-  "countryName": "Andorra"
+  "femaleNames": ["Maria", "Laia", "Anna", "Montserrat", "Berta"]
 }

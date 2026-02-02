@@ -17,12 +17,5 @@
     "Ryan",
     "Kevin"
   ],
-  "femaleNames": [
-    "Ashanti",
-    "Tiana",
-    "Maya",
-    "Anika",
-    "Sasha"
-  ],
-  "countryName": "Guyana"
+  "femaleNames": ["Ashanti", "Tiana", "Maya", "Anika", "Sasha"]
 }

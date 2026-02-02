@@ -17,12 +17,5 @@
     "Wael",
     "Hany"
   ],
-  "femaleNames": [
-    "Fatma",
-    "Sahar",
-    "Aya",
-    "Nour",
-    "Mona"
-  ],
-  "countryName": "Egypt"
+  "femaleNames": ["Fatma", "Sahar", "Aya", "Nour", "Mona"]
 }

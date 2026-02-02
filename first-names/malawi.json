@@ -17,12 +17,5 @@
     "Gomezgani",
     "Robert"
   ],
-  "femaleNames": [
-    "Tiwonge",
-    "Kondwani",
-    "Chifundo",
-    "Mphatso",
-    "Tamanda"
-  ],
-  "countryName": "Malawi"
+  "femaleNames": ["Tiwonge", "Kondwani", "Chifundo", "Mphatso", "Tamanda"]
 }

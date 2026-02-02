@@ -12,12 +12,5 @@
     "Denis",
     "Pavel"
   ],
-  "femaleNames": [
-    "Darya",
-    "Anna",
-    "Maria",
-    "Elena",
-    "Tatyana"
-  ],
-  "countryName": "Belarus"
+  "femaleNames": ["Darya", "Anna", "Maria", "Elena", "Tatyana"]
 }

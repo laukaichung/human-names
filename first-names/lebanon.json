@@ -17,12 +17,5 @@
     "Majed",
     "Zein"
   ],
-  "femaleNames": [
-    "Layla",
-    "Nour",
-    "Mariam",
-    "Reem",
-    "Yasmina"
-  ],
-  "countryName": "Lebanon"
+  "femaleNames": ["Layla", "Nour", "Mariam", "Reem", "Yasmina"]
 }

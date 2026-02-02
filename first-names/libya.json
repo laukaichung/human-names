@@ -17,12 +17,5 @@
     "Osama",
     "Salem"
   ],
-  "femaleNames": [
-    "Fatma",
-    "Khadeejah",
-    "Aisha",
-    "Salma",
-    "Hanan"
-  ],
-  "countryName": "Libya"
+  "femaleNames": ["Fatma", "Khadeejah", "Aisha", "Salma", "Hanan"]
 }

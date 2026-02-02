@@ -17,12 +17,5 @@
     "Jorge",
     "Gerardo"
   ],
-  "femaleNames": [
-    "Ana",
-    "Andrea",
-    "María",
-    "Lesly",
-    "Aisha"
-  ],
-  "countryName": "Guatemala"
+  "femaleNames": ["Ana", "Andrea", "María", "Lesly", "Aisha"]
 }

@@ -17,12 +17,5 @@
     "Yannick",
     "Stephan"
   ],
-  "femaleNames": [
-    "Anoushka",
-    "Priya",
-    "Sara",
-    "Kiara",
-    "Elena"
-  ],
-  "countryName": "Mauritius"
+  "femaleNames": ["Anoushka", "Priya", "Sara", "Kiara", "Elena"]
 }

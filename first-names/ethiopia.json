@@ -17,12 +17,5 @@
     "Henok",
     "Biniam"
   ],
-  "femaleNames": [
-    "Loza",
-    "Rehima",
-    "Senaf",
-    "Medina",
-    "Emebet"
-  ],
-  "countryName": "Ethiopia"
+  "femaleNames": ["Loza", "Rehima", "Senaf", "Medina", "Emebet"]
 }

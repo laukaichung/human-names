@@ -17,12 +17,5 @@
     "Thabiso",
     "Kopano"
   ],
-  "femaleNames": [
-    "Lerato",
-    "Mpho",
-    "Palesa",
-    "Nthabiseng",
-    "Khotsofalang"
-  ],
-  "countryName": "Lesotho"
+  "femaleNames": ["Lerato", "Mpho", "Palesa", "Nthabiseng", "Khotsofalang"]
 }

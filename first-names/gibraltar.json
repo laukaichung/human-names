@@ -17,12 +17,5 @@
     "Jack",
     "Niels"
   ],
-  "femaleNames": [
-    "Kyrelle",
-    "Shania",
-    "Tiana",
-    "Jouri",
-    "Aaliyah"
-  ],
-  "countryName": "Gibraltar"
+  "femaleNames": ["Kyrelle", "Shania", "Tiana", "Jouri", "Aaliyah"]
 }

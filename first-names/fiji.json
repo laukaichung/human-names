@@ -17,12 +17,5 @@
     "Isikeli",
     "Joji"
   ],
-  "femaleNames": [
-    "Trina",
-    "Cema",
-    "Sofi",
-    "Koleta",
-    "Bella"
-  ],
-  "countryName": "Fiji"
+  "femaleNames": ["Trina", "Cema", "Sofi", "Koleta", "Bella"]
 }

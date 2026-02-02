@@ -12,12 +12,5 @@
     "Milson",
     "Nurio"
   ],
-  "femaleNames": [
-    "Esperança",
-    "Teresa",
-    "Maria",
-    "Suzana",
-    "Helena"
-  ],
-  "countryName": "Angola"
+  "femaleNames": ["Esperança", "Teresa", "Maria", "Suzana", "Helena"]
 }

@@ -17,12 +17,5 @@
     "Bagdat",
     "Aleksandr"
   ],
-  "femaleNames": [
-    "Alua",
-    "Aisulu",
-    "Madina",
-    "Ayana",
-    "Zhanar"
-  ],
-  "countryName": "Kazakhstan"
+  "femaleNames": ["Alua", "Aisulu", "Madina", "Ayana", "Zhanar"]
 }

@@ -17,12 +17,5 @@
     "Dunstan",
     "Jean"
   ],
-  "femaleNames": [
-    "Emma",
-    "Valentina",
-    "Julia",
-    "Elena",
-    "Maria"
-  ],
-  "countryName": "Malta"
+  "femaleNames": ["Emma", "Valentina", "Julia", "Elena", "Maria"]
 }

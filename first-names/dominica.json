@@ -12,12 +12,5 @@
     "Fitz",
     "Javid"
   ],
-  "femaleNames": [
-    "Aaliyah",
-    "Briana",
-    "Jada",
-    "Shania",
-    "Tessa"
-  ],
-  "countryName": "Dominica"
+  "femaleNames": ["Aaliyah", "Briana", "Jada", "Shania", "Tessa"]
 }

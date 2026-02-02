@@ -17,12 +17,5 @@
     "Nooa",
     "Paulo"
   ],
-  "femaleNames": [
-    "Nur",
-    "Siti",
-    "Aisha",
-    "Putri",
-    "Hannah"
-  ],
-  "countryName": "Malaysia"
+  "femaleNames": ["Nur", "Siti", "Aisha", "Putri", "Hannah"]
 }

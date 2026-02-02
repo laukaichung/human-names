@@ -17,12 +17,5 @@
     "Martin",
     "Jaroslav"
   ],
-  "femaleNames": [
-    "Eliška",
-    "Anna",
-    "Adéla",
-    "Tereza",
-    "Sofie"
-  ],
-  "countryName": "Czechia"
+  "femaleNames": ["Eliška", "Anna", "Adéla", "Tereza", "Sofie"]
 }

@@ -12,12 +12,5 @@
     "Farshad",
     "Omid"
   ],
-  "femaleNames": [
-    "Maryam",
-    "Fatima",
-    "Zuhal",
-    "Madina",
-    "Lina"
-  ],
-  "countryName": "Afghanistan"
+  "femaleNames": ["Maryam", "Fatima", "Zuhal", "Madina", "Lina"]
 }

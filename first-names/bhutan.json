@@ -12,12 +12,5 @@
     "Wangchuk",
     "Kezang"
   ],
-  "femaleNames": [
-    "Pema",
-    "Sonam",
-    "Dechen",
-    "Choden",
-    "Lhamo"
-  ],
-  "countryName": "Bhutan"
+  "femaleNames": ["Pema", "Sonam", "Dechen", "Choden", "Lhamo"]
 }

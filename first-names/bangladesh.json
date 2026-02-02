@@ -12,12 +12,5 @@
     "Zoni",
     "Emon"
   ],
-  "femaleNames": [
-    "Sabina",
-    "Maria",
-    "Akhi",
-    "Krishna",
-    "Tahura"
-  ],
-  "countryName": "Bangladesh"
+  "femaleNames": ["Sabina", "Maria", "Akhi", "Krishna", "Tahura"]
 }

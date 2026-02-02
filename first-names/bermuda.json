@@ -12,12 +12,5 @@
     "Milan",
     "Dale"
   ],
-  "femaleNames": [
-    "Aaliyah",
-    "Deshae",
-    "Khyla",
-    "Trinae",
-    "Nia"
-  ],
-  "countryName": "Bermuda"
+  "femaleNames": ["Aaliyah", "Deshae", "Khyla", "Trinae", "Nia"]
 }

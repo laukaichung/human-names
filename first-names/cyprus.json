@@ -12,12 +12,5 @@
     "Ioannis",
     "Michalis"
   ],
-  "femaleNames": [
-    "Maria",
-    "Eleni",
-    "Androulla",
-    "Georgia",
-    "Anna"
-  ],
-  "countryName": "Cyprus"
+  "femaleNames": ["Maria", "Eleni", "Androulla", "Georgia", "Anna"]
 }

@@ -17,12 +17,5 @@
     "Dmitri",
     "Cristian"
   ],
-  "femaleNames": [
-    "Nicoleta",
-    "Doina",
-    "Elena",
-    "Alina",
-    "Anastasia"
-  ],
-  "countryName": "Moldova"
+  "femaleNames": ["Nicoleta", "Doina", "Elena", "Alina", "Anastasia"]
 }

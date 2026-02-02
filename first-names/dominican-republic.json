@@ -12,12 +12,5 @@
     "Pascual",
     "Miguel"
   ],
-  "femaleNames": [
-    "Altagracia",
-    "Milagros",
-    "Yudelka",
-    "Rosa",
-    "Carmen"
-  ],
-  "countryName": "Dominican Republic"
+  "femaleNames": ["Altagracia", "Milagros", "Yudelka", "Rosa", "Carmen"]
 }

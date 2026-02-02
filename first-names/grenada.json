@@ -17,12 +17,5 @@
     "Shavon",
     "Lucas"
   ],
-  "femaleNames": [
-    "Destiny",
-    "Aaliyah",
-    "Brianna",
-    "Arianna",
-    "Faith"
-  ],
-  "countryName": "Grenada"
+  "femaleNames": ["Destiny", "Aaliyah", "Brianna", "Arianna", "Faith"]
 }
