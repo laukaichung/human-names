@@ -1,4 +1,4 @@
-name: Merge Name Databases
+name: Normalize and Merge Name Databases
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Run Merge Script
+      - name: Run Normalization Script
         run: |
           node -e "
           const fs = require('fs');
@@ -28,25 +28,63 @@ jobs:
           const outputDir = path.join(process.cwd(), 'public');
           if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
 
-          const mergeToStaticFile = (sourceDir) => {
-            const sourcePath = path.join(process.cwd(), sourceDir);
+          const processType = (type) => {
+            const sourcePath = path.join(process.cwd(), type + '-names');
             if (!fs.existsSync(sourcePath)) return;
 
             const files = fs.readdirSync(sourcePath).filter(f => f.endsWith('.json'));
-            const list = files.map(file => JSON.parse(fs.readFileSync(path.join(sourcePath, file), 'utf8')));
+          
+            const uniqueNames = new Map(); // name -> id
+            let nextNameId = 1;
+            const countryLinks = [];
+            let nextLinkId = 1;
 
-            // Saves as public/first-names.json or public/last-names.json
-            fs.writeFileSync(path.join(outputDir, sourceDir + '.json'), JSON.stringify(list, null, 2));
+            files.forEach(file => {
+              const data = JSON.parse(fs.readFileSync(path.join(sourcePath, file), 'utf8'));
+              const countryId = data.id; // Assuming country files have an 'id' field
+
+              const processNameList = (names, genderId = null) => {
+                names.forEach(name => {
+                  if (!uniqueNames.has(name)) {
+                    uniqueNames.set(name, nextNameId++);
+                  }
+          
+                  const link = {
+                    id: nextLinkId++,
+                    countryId: countryId,
+                    nameId: uniqueNames.get(name)
+                  };
+                  if (genderId) link.genderId = genderId;
+                  countryLinks.push(link);
+                });
+              };
+
+              if (type === 'first') {
+                processNameList(data.maleNames || [], 'M');
+                processNameList(data.femaleNames || [], 'F');
+              } else {
+                processNameList(data.names || []);
+              }
+            });
+
+            // Prepare final arrays
+            const namesTable = Array.from(uniqueNames.entries()).map(([name, id]) => ({ id, name }));
+          
+            // Write files
+            fs.writeFileSync(path.join(outputDir, type + '-names.json'), JSON.stringify(namesTable, null, 2));
+            fs.writeFileSync(path.join(outputDir, type + '-name-countries.json'), JSON.stringify(countryLinks, null, 2));
+          
+            console.log('Processed ' + type + ': ' + namesTable.length + ' names, ' + countryLinks.length + ' links.');
           };
 
-          mergeToStaticFile('first-names');
-          mergeToStaticFile('last-names');
+          processType('first');
+          processType('last');
           "
 
       - name: Commit and Push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add public/first-names.json public/last-names.json
-          git commit -m "chore: update static name databases [skip ci]" || echo "No changes to commit"
+          git add public/*.json
+          git commit -m "chore: normalize name databases [skip ci]" || echo "No changes to commit"
           git push
