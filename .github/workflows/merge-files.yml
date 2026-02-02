@@ -1,0 +1,56 @@
+name: Merge Name Databases
+
+on:
+  push:
+    paths:
+      - 'first-names/**'
+      - 'last-names/**'
+  workflow_dispatch:
+
+jobs:
+  merge-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Merge Script
+        run: |
+          node -e "
+          const fs = require('fs');
+          const path = require('path');
+
+          const processDirectory = (dirName) => {
+            const dirPath = path.join(process.cwd(), dirName);
+            if (!fs.existsSync(dirPath)) return;
+
+            const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.json') && f !== 'all.json');
+            const merged = {};
+          
+            files.forEach(file => {
+              const content = JSON.parse(fs.readFileSync(path.join(dirPath, file), 'utf8'));
+              // Keying by the filename (e.g., 'brazil') so your playerNameCountryId works as a key
+              const key = path.basename(file, '.json');
+              merged[key] = content;
+            });
+
+            fs.writeFileSync(path.join(dirPath, 'all.json'), JSON.stringify(merged, null, 2));
+            console.log('Successfully created ' + dirName + '/all.json');
+          };
+
+          processDirectory('first-names');
+          processDirectory('last-names');
+          "
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add first-names/all.json last-names/all.json
+          git commit -m "chore: auto-merge name files [skip ci]" || echo "No changes to commit"
+          git push
