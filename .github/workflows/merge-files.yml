@@ -3,6 +3,7 @@ name: Normalize and Merge Name Databases
 on:
   push:
     paths:
+      # Run only when files in first-names and last-names change
       - 'first-names/**'
       - 'last-names/**'
   workflow_dispatch:
