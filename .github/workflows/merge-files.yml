@@ -41,7 +41,7 @@ jobs:
 
             files.forEach(file => {
               const data = JSON.parse(fs.readFileSync(path.join(sourcePath, file), 'utf8'));
-              const countryId = data.id; // Assuming country files have an 'id' field
+              const countryId = data.countryId;
 
               const processNameList = (names, genderId = null) => {
                 names.forEach(name => {
