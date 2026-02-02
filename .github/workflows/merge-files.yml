@@ -30,16 +30,14 @@ jobs:
             if (!fs.existsSync(dirPath)) return;
 
             const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.json') && f !== 'all.json');
-            const merged = {};
+            const list = [];
           
             files.forEach(file => {
               const content = JSON.parse(fs.readFileSync(path.join(dirPath, file), 'utf8'));
-              // Keying by the filename (e.g., 'brazil') so your playerNameCountryId works as a key
-              const key = path.basename(file, '.json');
-              merged[key] = content;
+              list.push(content);
             });
 
-            fs.writeFileSync(path.join(dirPath, 'all.json'), JSON.stringify(merged, null, 2));
+            fs.writeFileSync(path.join(dirPath, 'all.json'), JSON.stringify(list, null, 2));
             console.log('Successfully created ' + dirName + '/all.json');
           };
 
