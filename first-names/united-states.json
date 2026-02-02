@@ -1,0 +1,16 @@
+{
+  "id": "USA",
+  "countryId": 24,
+  "maleNames": [
+    "Liam", "Noah", "Oliver", "James", "Elijah", "William", "Henry", "Lucas", "Benjamin", "Theodore",
+    "Mateo", "Levi", "Sebastian", "Daniel", "Jack", "Wyatt", "Alexander", "Owen", "Asher", "Samuel",
+    "Ethan", "Leo", "Jackson", "Mason", "Ezra", "John", "Hudson", "Luca", "Aiden", "Maverick",
+    "Miles", "Walton", "Lincoln", "Gabriel", "Logan", "Julian", "Josiah", "Anthony", "Grayson", "Brooks",
+    "Christopher", "Joshua", "Andrew", "David", "Matthew", "Tyler", "Brandon", "Ryan", "Justin", "Austin"
+  ],
+  "femaleNames": [
+    "Olivia", "Emma", "Charlotte", "Amelia", "Sophia", "Mia", "Isabella", "Ava", "Evelyn", "Luna",
+    "Harper", "Sofia", "Scarlett", "Elizabeth", "Eleanor", "Emily", "Chloe", "Mila", "Violet", "Penelope",
+    "Gianna", "Aria", "Abigail", "Ella", "Avery", "Hazel", "Nora", "Lily", "Madison", "Layla"
+  ]
+}

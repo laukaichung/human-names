@@ -1,0 +1,15 @@
+{
+  "id": "Morocco",
+  "countryId": 29,
+  "maleNames": [
+    "Mohamed", "Ahmed", "Hamza", "Yassine", "Anass", "Amine", "Youssef", "Omar", "Badr", "Saad",
+    "Walid", "Achraf", "Hakim", "Soufiane", "Nayef", "Yahya", "Jawad", "Bilal", "Adnane", "Zakaria",
+    "Ismail", "Abderrahmane", "Karim", "Reda", "Mehdi", "Othmane", "Tariq", "Hassan", "Idriss", "Fouad",
+    "Nabil", "Khalid", "Mustapha", "Said", "Rachid", "Aziz", "Brahim", "Younes", "Ayoub", "Marouane",
+    "Adil", "Anouar", "Chakir", "Mounir", "Faisal", "Nadir", "Salim", "Sami", "Kamal", "Abdel"
+  ],
+  "femaleNames": [
+    "Fatima", "Khadija", "Zineb", "Salma", "Malak", "Aya", "Hiba", "Sara", "Layla", "Ines",
+    "Kenza", "Ghita", "Imane", "Soukaina", "Meryem", "Nadia", "Asmaa", "Loubna", "Hasna", "Ikram"
+  ]
+}

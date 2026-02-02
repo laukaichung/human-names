@@ -1,0 +1,14 @@
+{
+  "id": "Slovenia",
+  "countryId": 51,
+  "maleNames": [
+    "Jan", "Luka", "Mark", "Filip", "Nik", "Žan", "Anže", "Jakob", "Matic", "Nejc",
+    "Aljaž", "Blaž", "David", "Domen", "Erik", "Gašper", "Gregor", "Jaka", "Jernej", "Klemen",
+    "Matej", "Miha", "Patrik", "Primož", "Rok", "Sandi", "Tadej", "Tilen", "Tim", "Tomaž",
+    "Uroš", "Vid", "Andraž", "Bor", "Črt", "Dejan", "Edi", "Igor", "Jože", "Lovro",
+    "Marko", "Nace", "Ožbej", "Peter", "Rene", "Stane", "Urban", "Veno", "Zoran", "Žiga"
+  ],
+  "femaleNames": [
+    "Ema", "Hana", "Iza", "Lana", "Mia", "Nika", "Sara", "Tara", "Zala", "Zoja"
+  ]
+}

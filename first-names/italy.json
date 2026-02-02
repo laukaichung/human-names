@@ -1,0 +1,15 @@
+{
+  "id": "Italy",
+  "countryId": 12,
+  "maleNames": [
+    "Leonardo", "Francesco", "Tommaso", "Edoardo", "Alessandro", "Lorenzo", "Mattia", "Gabriele", "Riccardo", "Andrea",
+    "Diego", "Nicolò", "Matteo", "Giuseppe", "Antonio", "Federico", "Giovanni", "Pietro", "Filippo", "Samuele",
+    "Christian", "Davide", "Enea", "Marco", "Luca", "Vincenzo", "Salvatore", "Domenico", "Pasquale", "Raffaele",
+    "Giorgio", "Simone", "Stefano", "Roberto", "Claudio", "Daniele", "Giacomo", "Michele", "Angelo", "Luigi",
+    "Mario", "Paolo", "Fabio", "Alessio", "Emanuele", "Gennaro", "Ciro", "Tiziano", "Valerio", "Flavio"
+  ],
+  "femaleNames": [
+    "Sofia", "Aurora", "Giulia", "Ginevra", "Beatrice", "Alice", "Vittoria", "Emma", "Ludovica", "Matilde",
+    "Margherita", "Anna", "Chiara", "Gaia", "Bianca", "Sara", "Noemi", "Nicole", "Francesca", "Alessia"
+  ]
+}

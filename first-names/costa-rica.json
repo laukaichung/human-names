@@ -1,0 +1,14 @@
+{
+  "id": "Costa Rica",
+  "countryId": 38,
+  "maleNames": [
+    "Keylor", "Bryan", "Joel", "Celso", "Kendall", "Francisco", "Oscar", "Ronald", "Luis", "Yeltsin",
+    "Juan", "Jose", "Diego", "Carlos", "Andres", "Gabriel", "Sebastian", "Mateo", "Santiago", "Matias",
+    "Felipe", "Alejandro", "Adrian", "Ricardo", "Fernando", "Daniel", "Jorge", "Victor", "Marco", "Alvaro",
+    "Esteban", "Heiner", "Giancarlo", "Brandon", "Jefferson", "Anthony", "Cristian", "Alonso", "Freddy", "Ulises",
+    "Junior", "Manfred", "Kenneth", "Aaron", "Justin", "Ian", "Isaac", "Fabrizio", "Gael", "Thiago"
+  ],
+  "femaleNames": [
+    "Luciana", "Isabella", "Valentina", "Camila", "Sofia", "Mariana", "Victoria", "Emma", "Lucia", "Elena"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Mali",
+  "countryId": 58,
+  "maleNames": [
+    "Hamari", "Amadou", "Abdoulaye", "Mamadou", "Djigui", "Falaye", "Haidara", "Diadié", "Yves", "Mohamed",
+    "Lassana", "Adama", "Moussa", "Cheick", "Ibrahim", "Sekou", "Boubacar", "Aliou", "Bakary", "Ousmane",
+    "Youssouf", "Samba", "Abdou", "Boureima", "Fousseni", "Kalifa", "Mahamadou", "Modibo", "N'Golo", "Seydou",
+    "Souleymane", "Tiémoko", "Drissa", "Issa", "Kaba", "Lamine", "Oumar", "Salif", "Tidiane", "Yacouba",
+    "Almamy", "Bandiougou", "Dembélé", "El Bilal", "Ibrahima", "Kamory", "Malamine", "Nouhoum", "Sidy", "Zana"
+  ],
+  "femaleNames": [
+    "Fatoumata", "Mariam", "Aminata", "Awa", "Kadiatou", "Oumou", "Djénéba", "Sali", "Rokiatou", "Fanta"
+  ]
+}

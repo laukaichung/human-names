@@ -1,0 +1,14 @@
+{
+  "id": "Algeria",
+  "countryId": 42,
+  "maleNames": [
+    "Riyad", "Islam", "Baghdad", "Youcef", "Sofiane", "Raïs", "Ramy", "Aïssa", "Djamel", "Ismaël",
+    "Said", "Mehdi", "Abdelkader", "Hicham", "Faouzi", "Nabil", "Antar", "Madjid", "Karim", "Lakhdar",
+    "Mustapha", "Rabah", "Salah", "Billel", "Yacine", "Adam", "Ramiz", "Farid", "Ryad", "Amine",
+    "Oussama", "Anis", "Tarek", "Kamel", "Sofian", "Walid", "Reda", "Fayçal", "Zinedine", "Mourad",
+    "Samy", "Adlène", "Hassan", "Ali", "Lounès", "Aziz", "Hakim", "Rachid", "Hamid", "Idir"
+  ],
+  "femaleNames": [
+    "Lina", "Meriem", "Imane", "Selma", "Anissa", "Amel", "Nour", "Sonia", "Kenza", "Inès"
+  ]
+}

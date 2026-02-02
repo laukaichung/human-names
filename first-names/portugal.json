@@ -1,0 +1,15 @@
+{
+  "id": "Portugal",
+  "countryId": 11,
+  "maleNames": [
+    "Francisco", "Afonso", "João", "Tomas", "Duarte", "Lourenço", "Santiago", "Gabriel", "Martim", "Miguel",
+    "Lucas", "Mateus", "Guilherme", "Gonçalo", "Tiago", "Rodrigo", "Diogo", "Salvador", "Simão", "José",
+    "Rafael", "Bernardo", "Vasco", "António", "Vicente", "Manuel", "Henrique", "Daniel", "Afonso", "André",
+    "Felipe", "Bruno", "Ricardo", "Hugo", "Pedro", "Nuno", "Rui", "Sérgio", "Jorge", "Paulo",
+    "Marco", "Alexandre", "Vitor", "Luís", "Carlos", "Eduardo", "Cristiano", "Nelson", "Fabio", "Leandro"
+  ],
+  "femaleNames": [
+    "Maria", "Alice", "Leonor", "Matilde", "Benedita", "Carolina", "Beatriz", "Francisca", "Camila", "Margarida",
+    "Inês", "Mariana", "Clara", "Sofia", "Laura", "Madalena", "Mafalda", "Diana", "Júlia", "Vitória"
+  ]
+}

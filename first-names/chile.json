@@ -1,0 +1,14 @@
+{
+  "id": "Chile",
+  "countryId": 44,
+  "maleNames": [
+    "Alexis", "Arturo", "Claudio", "Gary", "Eduardo", "Charles", "Mauricio", "Guillermo", "Ben", "Marcelino",
+    "Gabriel", "Victor", "Paulo", "Erick", "Brayan", "Joaquín", "Alexander", "Jean", "Damián", "Lucas",
+    "Felipe", "Matías", "Sebastian", "Gonzalo", "Ignacio", "Esteban", "Humberto", "Jorge", "Rodrigo", "Marcelo",
+    "Patricio", "Ivan", "Fabian", "Francisco", "Andres", "Cristian", "Nicolas", "Diego", "Tomas", "Camilo",
+    "Bastian", "Luciano", "Alvaro", "Oscar", "Pablo", "Manuel", "Raul", "Vicente", "Renato", "Gustavo"
+  ],
+  "femaleNames": [
+    "Sofia", "Isabella", "Emilia", "Antonella", "Catalina", "Martina", "Valentina", "Maite", "Isidora", "Josefa"
+  ]
+}

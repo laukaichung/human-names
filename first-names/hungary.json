@@ -1,0 +1,14 @@
+{
+  "id": "Hungary",
+  "countryId": 22,
+  "maleNames": [
+    "Dominik", "Bence", "Máté", "Levente", "Noel", "Ádám", "Marcell", "Dániel", "Zoltan", "Attila",
+    "Botond", "Zalán", "Balázs", "Kristóf", "Olivér", "Patrik", "Gergő", "László", "Tamás", "Péter",
+    "István", "József", "János", "Sándor", "Gábor", "Ferenc", "Miklós", "András", "György", "Lajos",
+    "Béla", "Imre", "Károly", "Zsombor", "Barnabás", "Bendegúz", "Kornél", "Ákos", "Milán", "Dávid",
+    "Roland", "Krisztián", "Viktor", "Róbert", "Tibor", "Bertalan", "Endre", "Géza", "Gyula", "Vilmos"
+  ],
+  "femaleNames": [
+    "Hanna", "Anna", "Luca", "Zoé", "Léna", "Zsófia", "Boglárka", "Jázmin", "Gréta", "Flóra"
+  ]
+}

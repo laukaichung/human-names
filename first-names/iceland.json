@@ -1,0 +1,14 @@
+{
+  "id": "Iceland",
+  "countryId": 71,
+  "maleNames": [
+    "Aron", "Birkir", "Gylfi", "Jóhann", "Albert", "Hörður", "Sverrir", "Victor", "Arnór", "Alfreð",
+    "Andri", "Hákon", "Ísak", "Jón", "Mikael", "Kristian", "Gísli", "Stefán", "Daniel", "Logi",
+    "Elías", "Anton", "Bjarki", "Hólmar", "Ari", "Ragnar", "Kjartan", "Guðlaugur", "Sölvi", "Heimir",
+    "Eidur", "Kolbeinn", "Hermann", "Rúrik", "Indriði", "Brynjar", "Atli", "Eggert", "Ólafur", "Hjörtur",
+    "Viðar", "Theódór", "Arnór Ingvi", "Gunnar", "Björn", "Samúel", "Hjálmar", "Baldur", "Daníel Leó", "Einar"
+  ],
+  "femaleNames": [
+    "Guðrún", "Anna", "Kristín", "Sigríður", "Margrét", "Helga", "Elín", "Jóhanna", "Soffía", "Hildur"
+  ]
+}

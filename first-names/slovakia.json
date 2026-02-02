@@ -1,0 +1,14 @@
+{
+  "id": "Slovakia",
+  "countryId": 64,
+  "maleNames": [
+    "Jakub", "Samuel", "Adam", "Michal", "Tomáš", "Filip", "Lukáš", "Matej", "Martin", "Patrik",
+    "Peter", "Marek", "Matúš", "Juraj", "Dominik", "Sebastián", "Oliver", "Richard", "Dávid", "Kristián",
+    "Andrej", "Pavol", "Milan", "Jozef", "Štefan", "Ľubomír", "Ivan", "Róbert", "Vladimír", "Miroslav",
+    "Erik", "Adrián", "Stanislav", "Marián", "Daniel", "Dušan", "Roman", "Igor", "Jaroslav", "Ladislav",
+    "Tibor", "František", "Karol", "Imrich", "Alexander", "Boris", "Marcel", "Norbert", "Denis", "Alex"
+  ],
+  "femaleNames": [
+    "Sofia", "Eliška", "Viktória", "Nina", "Natália", "Ema", "Nela", "Tamara", "Laura", "Sára"
+  ]
+}

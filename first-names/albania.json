@@ -1,0 +1,14 @@
+{
+  "id": "Albania",
+  "countryId": 72,
+  "maleNames": [
+    "Armando", "Kristjan", "Nedim", "Berat", "Elseid", "Thomas", "Etrit", "Myrto", "Ernest", "Jasir",
+    "Ylber", "Qazim", "Ardian", "Mario", "Arlind", "Rey", "Indrit", "Sokol", "Bekim", "Odise",
+    "Ansi", "Ermir", "Ledian", "Lorik", "Andi", "Edon", "Alban", "Gentian", "Klodian", "Altin",
+    "Besnik", "Ervin", "Igli", "Redi", "Skënder", "Fatmir", "Bledar", "Artan", "Ilir", "Agim",
+    "Dritan", "Arjan", "Genci", "Saimir", "Valon", "Arben", "Mimoza", "Lindon", "Taulant", "Enea"
+  ],
+  "femaleNames": [
+    "Meggy", "Esi", "Artemis", "Matea", "Klea", "Kejsi", "Ambra", "Sara", "Anjeza", "Eni"
+  ]
+}

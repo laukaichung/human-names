@@ -1,0 +1,14 @@
+{
+  "id": "Senegal",
+  "countryId": 21,
+  "maleNames": [
+    "Mamadou", "Abdoulaye", "Cheikh", "Ibrahima", "Moussa", "Ousmane", "Pape", "Sadio", "Idrissa", "Kalidou",
+    "Ismaïla", "Boubacar", "Amadou", "Samba", "Babacar", "Djibril", "Lamine", "Modou", "Serigne", "Fallou",
+    "Abdou", "Bakary", "Demba", "El Hadji", "Gorgui", "Habib", "Issa", "Keba", "Mactar", "Makhtar",
+    "Mansour", "Mbaye", "Moustapha", "Ngagne", "Omar", "Oumar", "Pathé", "Saliou", "Seydou", "Souleymane",
+    "Talla", "Thierno", "Yoro", "Youssou", "Alioune", "Badara", "Doudou", "Malick", "Ndiaga", "Sidy"
+  ],
+  "femaleNames": [
+    "Fatoumata", "Aminata", "Aissatou", "Mariama", "Khadidiatou", "Astou", "Maimouna", "Binetou", "Adja", "Coumba"
+  ]
+}

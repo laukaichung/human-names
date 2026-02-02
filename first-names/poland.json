@@ -1,0 +1,15 @@
+{
+  "id": "Poland",
+  "countryId": 5,
+  "maleNames": [
+    "Antoni", "Jan", "Aleksander", "Nikodem", "Franciszek", "Jakub", "Leon", "Mikołaj", "Stanisław", "Filip",
+    "Wojciech", "Adam", "Kacper", "Marcel", "Tymon", "Ignacy", "Wiktor", "Szymon", "Michał", "Piotr",
+    "Robert", "Krzysztof", "Tomasz", "Andrzej", "Paweł", "Łukasz", "Mateusz", "Bartosz", "Dawid", "Kamil",
+    "Patryk", "Sebastian", "Grzegorz", "Marcin", "Rafał", "Dariusz", "Mariusz", "Zbigniew", "Jarosław", "Przemysław",
+    "Arkadiusz", "Karol", "Maciej", "Radosław", "Artur", "Damian", "Hubert", "Oliwier", "Ksawery", "Alan"
+  ],
+  "femaleNames": [
+    "Zofia", "Zuzanna", "Hanna", "Julia", "Maja", "Laura", "Oliwia", "Alicja", "Lena", "Pola",
+    "Maria", "Emilia", "Antonina", "Wiktoria", "Iga", "Michalina", "Liliana", "Klara", "Amelia", "Nela"
+  ]
+}

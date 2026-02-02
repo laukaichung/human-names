@@ -1,0 +1,14 @@
+{
+  "id": "Mexico",
+  "countryId": 27,
+  "maleNames": [
+    "Santiago", "Mateo", "Sebastián", "Leonardo", "Matías", "Emiliano", "Diego", "Daniel", "Alexander", "Miguel Ángel",
+    "Alejandro", "Gabriel", "Gael", "Joaquín", "Rodrigo", "Ricardo", "Fernando", "Javier", "Luis", "Carlos",
+    "Juan Carlos", "Jose Luis", "Francisco", "Antonio", "Eduardo", "Adrian", "Rafael", "Mauricio", "Gerardo", "Ivan",
+    "Hugo", "Oscar", "Jorge", "Pablo", "Andres", "Emmanuel", "Samuel", "Isaac", "Tadeo", "Bruno",
+    "César", "Mario", "Cristian", "Marcos", "Raúl", "Roberto", "Felipe", "Héctor", "Víctor", "Saúl"
+  ],
+  "femaleNames": [
+    "Sofía", "María José", "Valentina", "Ximena", "Regina", "Camila", "María Fernanda", "Valeria", "Renata", "Victoria"
+  ]
+}

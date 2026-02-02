@@ -1,0 +1,15 @@
+{
+  "id": "Japan",
+  "countryId": 1,
+  "maleNames": [
+    "Haruto", "Minato", "Itsuki", "Hiroshi", "Kenji", "Akira", "Yuto", "Sota", "Takeru", "Kaito",
+    "Sho", "Daiki", "Ryota", "Kazuki", "Yuma", "Eita", "Sora", "Hayato", "Kota", "Shinji",
+    "Takumi", "Goro", "Masao", "Yoshio", "Kenta", "Riku", "Haru", "Yosuke", "Naoki", "Ren",
+    "Asahi", "Hinata", "Ao", "Ritsu", "Nagisa", "Sui", "Zen", "Yuito", "Hayate", "Fuma",
+    "Arata", "Sosuke", "Kouta", "Yamato", "Tatsuki", "Ryo", "Keita", "Daichi", "Kazuya", "Tsubasa"
+  ],
+  "femaleNames": [
+    "Himari", "Tsumugi", "Rin", "Mei", "Aoi", "Sakura", "Hana", "Akari", "Ichika", "Sara",
+    "Hina", "Sui", "Koharu", "Yua", "Mio", "Yuzuki", "Kotoha", "Koto", "Honoka", "Kanna"
+  ]
+}

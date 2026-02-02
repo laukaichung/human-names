@@ -1,0 +1,15 @@
+{
+  "id": "Argentina",
+  "countryId": 2,
+  "maleNames": [
+    "Mateo", "Felipe", "Enzo", "Bautista", "Benjamín", "Valentino", "Bruno", "Liam", "Noah", "Joaquín",
+    "Lorenzo", "Santino", "Francisco", "Ignacio", "Santiago", "Julián", "Matías", "Tomás", "Lautaro", "Facundo",
+    "Nicolás", "Gael", "Milo", "Juan", "Lionel", "Ramiro", "Agustín", "Franco", "Thiago", "Bastian",
+    "Ciro", "Luca", "Sebastián", "Marcos", "Leonardo", "Alejo", "Gonzalo", "Esteban", "Federico", "Valentín",
+    "Diego", "Rodrigo", "Andrés", "Manuel", "Patricio", "Dante", "Simón", "Benicio", "Tiziano", "Elias"
+  ],
+  "femaleNames": [
+    "Olivia", "Sofía", "Emma", "Emilia", "Isabella", "Catalina", "Martina", "Delfina", "Mía", "Valentina",
+    "Alma", "Victoria", "Renata", "Juana", "Luz", "Cielo", "Paz", "Elena", "Amparo", "Jazmín"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "Australia",
+  "countryId": 40,
+  "maleNames": [
+    "Oliver", "Noah", "Leo", "William", "Henry", "Jack", "Theodore", "Hudson", "Charlie", "Luca",
+    "Thomas", "Archie", "Levi", "Harvey", "James", "Arlo", "Oscar", "Mason", "Sebastian", "George",
+    "Tim", "Harry", "Mark", "Brett", "Craig", "Shane", "Scott", "Matthew", "Luke", "Daniel",
+    "Joshua", "Samuel", "Lachlan", "Mitchell", "Jackson", "Riley", "Cooper", "Harrison", "Flynn", "Finn",
+    "Angus", "Darcy", "Hamish", "Xavier", "Archer", "Banjo", "Jasper", "Felix", "Hugo", "Max"
+  ],
+  "femaleNames": [
+    "Charlotte", "Amelia", "Olivia", "Isla", "Mia", "Ava", "Grace", "Willow", "Harper", "Lily",
+    "Hazel", "Ivy", "Florence", "Sophie", "Sienna", "Ruby", "Evie", "Chloe", "Alice", "Matilda"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Georgia",
+  "countryId": 53,
+  "maleNames": [
+    "Giorgi", "Davit", "Luka", "Nikoloz", "Irakli", "Levan", "Saba", "Tornike", "Mate", "Zurab",
+    "Guram", "Otar", "Vakhtang", "Anzor", "Jaba", "Valeri", "Solomon", "Khvicha", "Georges", "Budu",
+    "Zuriko", "Lasha", "Nika", "Beka", "Giga", "Temur", "Akaki", "Shota", "Paata", "Ushangi",
+    "Revaz", "Gogi", "Dato", "Ilia", "Aleksandre", "Konstantine", "Malkhaz", "Gia", "Mamuka", "Gocha",
+    "Zaza", "Archil", "Besik", "Koba", "Tamaz", "Vano", "Misha", "Rati", "Erekle", "Gela"
+  ],
+  "femaleNames": [
+    "Nino", "Mariam", "Ana", "Tamar", "Elene", "Salome", "Ekaterine", "Natia", "Ketevan", "Lana"
+  ]
+}

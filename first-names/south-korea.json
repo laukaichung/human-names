@@ -1,0 +1,15 @@
+{
+  "id": "South Korea",
+  "countryId": 26,
+  "maleNames": [
+    "Min-jun", "Seo-jun", "Ha-joon", "Do-yun", "Si-woo", "Eun-woo", "Ji-ho", "Ye-jun", "Yu-jun", "Su-ho",
+    "Joo-won", "Joon-woo", "Min-kyu", "Hyun-woo", "Woo-jin", "Ji-hun", "Jung-hoon", "Sung-min", "Ji-won", "Young-ho",
+    "Dong-hyun", "Sang-hyuk", "Ki-tae", "Jae-hyuk", "Seung-woo", "Heung-min", "Kang-in", "Min-jae", "Gue-sung", "Young-gwon",
+    "Bum-keun", "Myung-bo", "Doo-ri", "Sung-yong", "Chung-yong", "Kwang-rae", "Tae-young", "Seon-hong", "Jung-won", "Jae-sung",
+    "Hee-chan", "Chang-hoon", "Jun-ho", "Dae-sung", "Kyung-ho", "Byung-ji", "Yong-dae", "Hyun-jun", "Jin-su", "Tae-hwan"
+  ],
+  "femaleNames": [
+    "Seo-yeon", "Seo-yoon", "Ji-woo", "Seo-ah", "Ha-yoon", "Ji-yoo", "Yun-seo", "Chae-won", "Ha-eun", "Ji-a",
+    "Eun-ji", "Hye-jin", "Min-seo", "So-yeon", "Ji-young", "Ji-hye", "Na-young", "Su-bin", "Ga-young", "Ye-eun"
+  ]
+}

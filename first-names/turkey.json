@@ -1,0 +1,14 @@
+{
+  "id": "Turkey",
+  "countryId": 41,
+  "maleNames": [
+    "Alparslan", "Yusuf", "Miraç", "Göktuğ", "Ömer", "Hamza", "Kerem", "Eymen", "Metehan", "Aras",
+    "Mustafa", "Ali", "Ahmet", "Mehmet", "Can", "Emir", "Deniz", "Burak", "Mert", "Arda",
+    "Yiğit", "Enes", "Boran", "Selim", "Kaan", "Barış", "Okan", "Serkan", "Hakan", "Volkan",
+    "Emre", "Onur", "Gökhan", "Tuna", "Umut", "Ege", "Doruk", "Batu", "Ozan", "Taha",
+    "Semih", "Cem", "Koray", "Sarp", "Talat", "Fatih", "Murat", "İbrahim", "Kemal", "Yasin"
+  ],
+  "femaleNames": [
+    "Zeynep", "Elif", "Asel", "Defne", "Azra", "Eylül", "Nehir", "Ebrar", "Leya", "Meryem"
+  ]
+}

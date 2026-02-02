@@ -1,0 +1,14 @@
+{
+  "id": "Oman",
+  "countryId": 69,
+  "maleNames": [
+    "Faiyz", "Ibrahim", "Ahmed", "Ali", "Mohammed", "Harib", "Jameel", "Salaah", "Abdullah", "Issam",
+    "Zahir", "Arshad", "Muhsen", "Khalid", "Mazin", "Omar", "Musab", "Ghanim", "Thani", "Yousuf",
+    "Fahmi", "Said", "Rabia", "Yaqoob", "Hassan", "Abdulaziz", "Amjad", "Sami", "Amran", "Nasser",
+    "Juma", "Hani", "Saleh", "Raed", "Qasim", "Hashim", "Eid", "Badar", "Abdul Salam", "Mubarak",
+    "Fawzi", "Ismail", "Saad", "Talal", "Younis", "Nabil", "Khalifa", "Azan", "Hamed", "Jamal"
+  ],
+  "femaleNames": [
+    "Maryam", "Fatima", "Aisha", "Sara", "Zainab", "Amna", "Mona", "Salma", "Nadia", "Asma"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "Serbia",
+  "countryId": 20,
+  "maleNames": [
+    "Luka", "Lazar", "Vasilije", "Stefan", "Aleksa", "Bogdan", "Vuk", "Filip", "Nikola", "Dušan",
+    "Đorđe", "Pavle", "Matija", "Kosta", "Andrej", "Viktor", "Uroš", "Ognjen", "Relja", "Todor",
+    "Petar", "Mihajlo", "Nemanja", "Miloš", "Aleksandar", "Marko", "Strahinja", "Veljko", "Jovan", "Branislav",
+    "Darko", "Saša", "Goran", "Zoran", "Dragan", "Milan", "Ivan", "Bojan", "Predrag", "Dejan",
+    "Mladen", "Slobodan", "Vujadin", "Sava", "Nenad", "Vlado", "Rade", "Miko", "Dražen", "Borislav"
+  ],
+  "femaleNames": [
+    "Sofija", "Dunja", "Milica", "Sara", "Nikolina", "Teodora", "Lena", "Ana", "Petra", "Tara"
+  ]
+}

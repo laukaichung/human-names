@@ -1,0 +1,14 @@
+{
+  "id": "Uruguay",
+  "countryId": 15,
+  "maleNames": [
+    "Agustín", "Mateo", "Joaquín", "Santiago", "Felipe", "Bautista", "Benjamín", "Valentino", "Ignacio", "Juan",
+    "Lorenzo", "Francisco", "Nicolás", "Matías", "Diego", "Luis", "Edinson", "Sebastián", "Rodrigo", "Facundo",
+    "Lautaro", "Emiliano", "Bruno", "Lucas", "Gabriel", "Guzmán", "Tabaré", "Enzo", "Federico", "Gonzalo",
+    "Ramiro", "Franco", "Mauro", "Valentín", "Renzo", "Nahuel", "Julián", "Dante", "Simón", "Esteban",
+    "Alvaro", "Martín", "Marcelo", "Pablo", "Andrés", "Alejandro", "Leonardo", "Gerardo", "Carlos", "Jorge"
+  ],
+  "femaleNames": [
+    "Martina", "Sofía", "Valentina", "Julieta", "Lucía", "Catalina", "Delfina", "Mía", "Emma", "Victoria"
+  ]
+}

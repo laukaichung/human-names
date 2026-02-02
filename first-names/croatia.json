@@ -1,0 +1,15 @@
+{
+  "id": "Croatia",
+  "countryId": 18,
+  "maleNames": [
+    "Luka", "Ivan", "Marko", "David", "Jakov", "Petar", "Mateo", "Filip", "Josip", "Leon",
+    "Fran", "Niko", "Matej", "Karlo", "Borna", "Ante", "Noa", "Marin", "Roko", "Duje",
+    "Stjepan", "Gabrijel", "Andrej", "Mihael", "Dominik", "Lovro", "Nikola", "Viktor", "Šimun", "Tomas",
+    "Matija", "Toni", "Bruno", "Lukas", "Emanuel", "Vito", "Jan", "Patrik", "Dino", "Tin",
+    "Ivano", "Erik", "Adrian", "Kristijan", "Zvonimir", "Tomislav", "Mario", "Danijel", "Robert", "Igor"
+  ],
+  "femaleNames": [
+    "Mia", "Lucija", "Sara", "Ema", "Marta", "Petra", "Rita", "Lana", "Nika", "Elena",
+    "Iva", "Ana", "Lea", "Tamara", "Dora", "Marija", "Lara", "Hana", "Eva", "Klara"
+  ]
+}

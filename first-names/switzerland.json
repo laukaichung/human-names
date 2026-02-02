@@ -1,0 +1,15 @@
+{
+  "id": "Switzerland",
+  "countryId": 19,
+  "maleNames": [
+    "Noah", "Liam", "Matteo", "Leon", "Luca", "Elias", "Gabriel", "Nino", "Samuel", "Levin",
+    "Louis", "Julian", "Andrin", "Nico", "Lean", "Lio", "Ben", "Jonas", "Henry", "Theo",
+    "Dario", "Mauro", "Fabio", "Alessio", "Mattia", "Diego", "Elia", "Yanis", "Loris", "Sandro",
+    "Reto", "Urs", "Beat", "Marcel", "Pascal", "Marc", "Thomas", "Christian", "Florian", "Stefan",
+    "Lukas", "Adrian", "Silvan", "Marco", "Patrick", "Simon", "Remo", "Dominik", "Jan", "Joel"
+  ],
+  "femaleNames": [
+    "Mia", "Emma", "Elena", "Mila", "Sofia", "Emilia", "Laura", "Anna", "Lara", "Lina",
+    "Lea", "Alina", "Sara", "Sophie", "Malea", "Nina", "Julia", "Chiara", "Nora", "Valentina"
+  ]
+}

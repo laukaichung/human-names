@@ -1,0 +1,15 @@
+{
+  "id": "Sweden",
+  "countryId": 31,
+  "maleNames": [
+    "Noah", "Hugo", "William", "Liam", "Nils", "Elias", "Adam", "Oliver", "Lucas", "Alexander",
+    "Isak", "Arvid", "Leon", "Ludvig", "Oscar", "Theo", "August", "Walter", "Lowe", "Melvin",
+    "Zlatan", "Henrik", "Fredrik", "Andreas", "Sebastian", "Victor", "Emil", "Robin", "Marcus", "Erik",
+    "Johan", "Anders", "Magnus", "Mikael", "Lars", "Per", "Karl", "Sven", "Björn", "Olof",
+    "Gustav", "Axel", "Filip", "Anton", "Joel", "Simon", "Viktor", "Albin", "Pontus", "Rasmus"
+  ],
+  "femaleNames": [
+    "Astrid", "Maja", "Alma", "Vera", "Freja", "Alice", "Selma", "Elsa", "Signe", "Ella",
+    "Wilma", "Ebba", "Olivia", "Agnes", "Ines", "Lilly", "Stella", "Molly", "Sigrid", "Nova"
+  ]
+}

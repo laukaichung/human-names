@@ -1,5 +1,4 @@
 # Data Files
-*.json
 !manifest.json # Example: Un-ignore a specific file if needed
 
 # Logs and Shell History
