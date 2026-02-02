@@ -3,7 +3,6 @@ name: Normalize and Merge Name Databases
 on:
   push:
     paths:
-      # Run only when files in first-names and last-names change
       - 'first-names/**'
       - 'last-names/**'
   workflow_dispatch:
@@ -35,28 +34,23 @@ jobs:
 
             const files = fs.readdirSync(sourcePath).filter(f => f.endsWith('.json'));
           
-            const uniqueNames = new Map(); // name -> id
-            let nextNameId = 1;
-            const countryLinks = [];
-            let nextLinkId = 1;
+            const list = [];
+            let nextId = 1; // Used for the 'id' field in your interface
 
             files.forEach(file => {
               const data = JSON.parse(fs.readFileSync(path.join(sourcePath, file), 'utf8'));
               const countryId = data.countryId;
 
-              const processNameList = (names, gender = null) => {
+              const processNameList = (names, genderId = null) => {
                 names.forEach(name => {
-                  if (!uniqueNames.has(name)) {
-                    uniqueNames.set(name, nextNameId++);
-                  }
-          
-                  const link = {
-                    id: nextLinkId++,
+                  const item = {
+                    id: nextId++,
                     countryId: countryId,
-                    nameId: uniqueNames.get(name)
+                    name: name
                   };
-                  if (gender) link.gender = gender;
-                  countryLinks.push(link);
+                  // Match your interface genderId: 'M' | 'F'
+                  if (genderId) item.genderId = genderId;
+                  list.push(item);
                 });
               };
 
@@ -67,15 +61,11 @@ jobs:
                 processNameList(data.names || []);
               }
             });
-
-            // Prepare final arrays
-            const namesTable = Array.from(uniqueNames.entries()).map(([name, id]) => ({ id, name }));
           
-            // Write files
-            fs.writeFileSync(path.join(outputDir, type + '-names.json'), JSON.stringify(namesTable, null, 2));
-            fs.writeFileSync(path.join(outputDir, type + '-name-countries.json'), JSON.stringify(countryLinks, null, 2));
+            // Write to public/first-names.json or public/last-names.json
+            fs.writeFileSync(path.join(outputDir, type + '-names.json'), JSON.stringify(list, null, 2));
           
-            console.log('Processed ' + type + ': ' + namesTable.length + ' names, ' + countryLinks.length + ' links.');
+            console.log('Processed ' + type + ': ' + list.length + ' entries');
           };
 
           processType('first');
@@ -87,5 +77,5 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add public/*.json
-          git commit -m "chore: normalize name databases [skip ci]" || echo "No changes to commit"
+          git commit -m "chore: flatten and merge name databases [skip ci]" || echo "No changes to commit"
           git push
