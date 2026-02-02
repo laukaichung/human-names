@@ -7,7 +7,7 @@ A structured database of first and last names categorized by country and gender.
 1. Add or edit JSON files in the `/first-names` and `/last-names` folders.
 2. Once you push your changes, a GitHub Action automatically runs.
 3. The action merges all countries, removes duplicate names to save space, and assigns unique IDs to create a relational database.
-4. Four JSON files are generated in the `/public` folder. You can then use the file upload button in the game to import these files.
+4. Two JSON files are generated in the `/public` folder. You can then use the file upload button in the game to import them.
 
 
 ---
