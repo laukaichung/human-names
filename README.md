@@ -4,11 +4,10 @@ A structured database of first and last names categorized by country and gender.
 
 ## 🚀 How It Works
 
-1.  **Edit Source Data**: Add or edit JSON files in the `/first-names` and `/last-names` folders.
-2.  **Push to GitHub**: Once you push your changes, a GitHub Action automatically runs.
-3.  **Automatic Normalization**: The action merges all countries, removes duplicate names to save space, and assigns unique IDs to create a relational database.
-4.  **Static Distribution**: Four optimized JSON files are generated in the `/public` folder. You can then use the file upload button in the game to import these files.
-
+1. Add or edit JSON files in the `/first-names` and `/last-names` folders.
+2. Once you push your changes, a GitHub Action automatically runs.
+3. The action merges all countries, removes duplicate names to save space, and assigns unique IDs to create a relational database.
+4. Four JSON files are generated in the `/public` folder. You can then use the file upload button in the game to import these files.
 
 
 ---
@@ -17,7 +16,7 @@ A structured database of first and last names categorized by country and gender.
 
 * **`/first-names/`**: Source files containing gendered first names for each country.
 * **`/last-names/`**: Source files containing surnames for each country.
-* **`/public/`**: **Generated files (Do not edit manually)**. These are the normalized relational tables used by the application for Dexie.js.
+* **`/public/`**: **Generated save files (Do not edit manually)**.
 
 ---
 
@@ -30,7 +29,7 @@ To add a new country (e.g., East Germany), create a new JSON file in the appropr
 ### 1. First Names (`/first-names/east-germany.json`)
 ````
 {
-  "countryName": "East Germany", <- This field is optional. It is just for your own use
+  "countryName": "East Germany",
   "countryId": 111,
   "maleNames": ["Wolfgang", "Hans"],
   "femaleNames": ["Heidi", "Petra"]
