@@ -25,30 +25,28 @@ jobs:
           const fs = require('fs');
           const path = require('path');
 
-          const processDirectory = (dirName) => {
-            const dirPath = path.join(process.cwd(), dirName);
-            if (!fs.existsSync(dirPath)) return;
+          const outputDir = path.join(process.cwd(), 'public');
+          if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
 
-            const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.json') && f !== 'all.json');
-            const list = [];
-          
-            files.forEach(file => {
-              const content = JSON.parse(fs.readFileSync(path.join(dirPath, file), 'utf8'));
-              list.push(content);
-            });
+          const mergeToStaticFile = (sourceDir) => {
+            const sourcePath = path.join(process.cwd(), sourceDir);
+            if (!fs.existsSync(sourcePath)) return;
 
-            fs.writeFileSync(path.join(dirPath, 'all.json'), JSON.stringify(list, null, 2));
-            console.log('Successfully created ' + dirName + '/all.json');
+            const files = fs.readdirSync(sourcePath).filter(f => f.endsWith('.json'));
+            const list = files.map(file => JSON.parse(fs.readFileSync(path.join(sourcePath, file), 'utf8')));
+
+            // Saves as public/first-names.json or public/last-names.json
+            fs.writeFileSync(path.join(outputDir, sourceDir + '.json'), JSON.stringify(list, null, 2));
           };
 
-          processDirectory('first-names');
-          processDirectory('last-names');
+          mergeToStaticFile('first-names');
+          mergeToStaticFile('last-names');
           "
 
       - name: Commit and Push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add first-names/all.json last-names/all.json
-          git commit -m "chore: auto-merge name files [skip ci]" || echo "No changes to commit"
+          git add public/first-names.json public/last-names.json
+          git commit -m "chore: update static name databases [skip ci]" || echo "No changes to commit"
           git push
