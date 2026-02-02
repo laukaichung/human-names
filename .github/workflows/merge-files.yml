@@ -44,7 +44,7 @@ jobs:
               const data = JSON.parse(fs.readFileSync(path.join(sourcePath, file), 'utf8'));
               const countryId = data.countryId;
 
-              const processNameList = (names, genderId = null) => {
+              const processNameList = (names, gender = null) => {
                 names.forEach(name => {
                   if (!uniqueNames.has(name)) {
                     uniqueNames.set(name, nextNameId++);
@@ -55,7 +55,7 @@ jobs:
                     countryId: countryId,
                     nameId: uniqueNames.get(name)
                   };
-                  if (genderId) link.genderId = genderId;
+                  if (gender) link.gender = gender;
                   countryLinks.push(link);
                 });
               };
