@@ -41,15 +41,15 @@ jobs:
               const data = JSON.parse(fs.readFileSync(path.join(sourcePath, file), 'utf8'));
               const countryId = data.countryId;
 
-              const processNameList = (names, genderId = null) => {
+              const processNameList = (names, gender = null) => {
                 names.forEach(name => {
                   const item = {
                     id: nextId++,
                     countryId: countryId,
                     name: name
                   };
-                  // Match your interface genderId: 'M' | 'F'
-                  if (genderId) item.genderId = genderId;
+                  // Match your interface gender: 'M' | 'F'
+                  if (gender) item.gender = gender;
                   list.push(item);
                 });
               };
