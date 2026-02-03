@@ -7,12 +7,18 @@ on:
       - 'last-names/**'
   workflow_dispatch:
 
+# Added: Explicit permissions to allow pushing changes
+permissions:
+  contents: write
+
 jobs:
   merge-json:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetches all history for all branches and tags
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -26,50 +32,45 @@ jobs:
           const path = require('path');
 
           const outputDir = path.join(process.cwd(), 'public');
-          if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
+          if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-          const processType = (type) => {
-            const sourcePath = path.join(process.cwd(), type + '-names');
-            if (!fs.existsSync(sourcePath)) return;
+          const processType = (folderName) => {
+            // Ensure this matches your actual folder name: 'first-names'
+            const sourcePath = path.join(process.cwd(), folderName);
+          
+            if (!fs.existsSync(sourcePath)) {
+              console.error('Directory not found: ' + sourcePath);
+              return;
+            }
 
             const files = fs.readdirSync(sourcePath).filter(f => f.endsWith('.json'));
-          
             const list = [];
-            let nextId = 1; // Used for the 'id' field in your interface
+            let nextId = 1;
 
             files.forEach(file => {
-              const data = JSON.parse(fs.readFileSync(path.join(sourcePath, file), 'utf8'));
-              const countryId = data.countryId;
+              try {
+                const data = JSON.parse(fs.readFileSync(path.join(sourcePath, file), 'utf8'));
+                const countryId = data.countryId;
+                const names = data.names || [];
 
-              const processNameList = (names, gender = null) => {
                 names.forEach(name => {
-                  const item = {
+                  list.push({
                     id: nextId++,
                     countryId: countryId,
                     name: name
-                  };
-                  // Match your interface gender: 'M' | 'F'
-                  if (gender) item.gender = gender;
-                  list.push(item);
+                  });
                 });
-              };
-
-              if (type === 'first') {
-                processNameList(data.maleNames || [], 'M');
-                processNameList(data.femaleNames || [], 'F');
-              } else {
-                processNameList(data.names || []);
+              } catch (e) {
+                console.error('Error parsing ' + file + ':', e.message);
               }
             });
           
-            // Write to public/first-names.json or public/last-names.json
-            fs.writeFileSync(path.join(outputDir, type + '-names.json'), JSON.stringify(list, null, 2));
-          
-            console.log('Processed ' + type + ': ' + list.length + ' entries');
+            fs.writeFileSync(path.join(outputDir, folderName + '.json'), JSON.stringify(list, null, 2));
+            console.log('Processed ' + folderName + ': ' + list.length + ' entries');
           };
 
-          processType('first');
-          processType('last');
+          processType('first-names');
+          processType('last-names');
           "
 
       - name: Commit and Push changes
@@ -77,5 +78,10 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add public/*.json
-          git commit -m "chore: flatten and merge name databases [skip ci]" || echo "No changes to commit"
-          git push
+          # Check if there are changes before committing to avoid 'nothing to commit' errors
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: flatten and merge name databases [skip ci]"
+            git push
+          fi
