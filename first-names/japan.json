@@ -1,6 +1,6 @@
 {
   "countryId": 1,
-  "maleNames": [
+  "names": [
     "Haruto",
     "Minato",
     "Itsuki",
@@ -51,27 +51,5 @@
     "Daichi",
     "Kazuya",
     "Tsubasa"
-  ],
-  "femaleNames": [
-    "Himari",
-    "Tsumugi",
-    "Rin",
-    "Mei",
-    "Aoi",
-    "Sakura",
-    "Hana",
-    "Akari",
-    "Ichika",
-    "Sara",
-    "Hina",
-    "Sui",
-    "Koharu",
-    "Yua",
-    "Mio",
-    "Yuzuki",
-    "Kotoha",
-    "Koto",
-    "Honoka",
-    "Kanna"
   ]
 }

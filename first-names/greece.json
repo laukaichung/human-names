@@ -1,6 +1,6 @@
 {
   "countryId": 45,
-  "maleNames": [
+  "names": [
     "Georgios",
     "Konstantinos",
     "Ioannis",
@@ -51,17 +51,5 @@
     "Damianos",
     "Theofanis",
     "Polychronis"
-  ],
-  "femaleNames": [
-    "Maria",
-    "Eleni",
-    "Aikaterini",
-    "Vasiliki",
-    "Sophia",
-    "Angeliki",
-    "Georgia",
-    "Dimitra",
-    "Konstantina",
-    "Ioanna"
   ]
 }

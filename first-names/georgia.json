@@ -1,6 +1,6 @@
 {
   "countryId": 53,
-  "maleNames": [
+  "names": [
     "Giorgi",
     "Davit",
     "Luka",
@@ -51,17 +51,5 @@
     "Rati",
     "Erekle",
     "Gela"
-  ],
-  "femaleNames": [
-    "Nino",
-    "Mariam",
-    "Ana",
-    "Tamar",
-    "Elene",
-    "Salome",
-    "Ekaterine",
-    "Natia",
-    "Ketevan",
-    "Lana"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "countryId": 113,
-  "maleNames": [
+  "names": [
     "Michael",
     "Joseph",
     "Richard",
@@ -16,6 +16,5 @@
     "Victor",
     "Abud",
     "Kenneth"
-  ],
-  "femaleNames": ["Faith", "Beatrice", "Mary", "Chepngetich", "Amani"]
+  ]
 }

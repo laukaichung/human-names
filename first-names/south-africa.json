@@ -1,6 +1,6 @@
 {
   "countryId": 70,
-  "maleNames": [
+  "names": [
     "Lethabo",
     "Melokuhle",
     "Lubanzi",
@@ -51,17 +51,5 @@
     "Xolani",
     "Zukisa",
     "Kwame"
-  ],
-  "femaleNames": [
-    "Melokuhle",
-    "Omphile",
-    "Iminathi",
-    "Rethabile",
-    "Lethabo",
-    "Mia",
-    "Zoe",
-    "Amahle",
-    "Lesedi",
-    "Lindo"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "countryId": 26,
-  "maleNames": [
+  "names": [
     "Min-jun",
     "Seo-jun",
     "Ha-joon",
@@ -51,27 +51,5 @@
     "Hyun-jun",
     "Jin-su",
     "Tae-hwan"
-  ],
-  "femaleNames": [
-    "Seo-yeon",
-    "Seo-yoon",
-    "Ji-woo",
-    "Seo-ah",
-    "Ha-yoon",
-    "Ji-yoo",
-    "Yun-seo",
-    "Chae-won",
-    "Ha-eun",
-    "Ji-a",
-    "Eun-ji",
-    "Hye-jin",
-    "Min-seo",
-    "So-yeon",
-    "Ji-young",
-    "Ji-hye",
-    "Na-young",
-    "Su-bin",
-    "Ga-young",
-    "Ye-eun"
   ]
 }

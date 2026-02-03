@@ -1,6 +1,6 @@
 {
   "countryId": 223,
-  "maleNames": [
+  "names": [
     "Chencho",
     "Karma",
     "Tshering",
@@ -11,6 +11,5 @@
     "Nima",
     "Wangchuk",
     "Kezang"
-  ],
-  "femaleNames": ["Pema", "Sonam", "Dechen", "Choden", "Lhamo"]
+  ]
 }

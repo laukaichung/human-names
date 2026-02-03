@@ -1,6 +1,6 @@
 {
   "countryId": 7,
-  "maleNames": [
+  "names": [
     "Hugo",
     "Mateo",
     "Martin",
@@ -51,27 +51,5 @@
     "Rubén",
     "Pedro",
     "Alonso"
-  ],
-  "femaleNames": [
-    "Lucía",
-    "Sofía",
-    "Martina",
-    "María",
-    "Julia",
-    "Valeria",
-    "Paula",
-    "Emma",
-    "Daniela",
-    "Alba",
-    "Olivia",
-    "Noa",
-    "Lola",
-    "Carmen",
-    "Vega",
-    "Mia",
-    "Lara",
-    "Sara",
-    "Jimena",
-    "Gala"
   ]
 }

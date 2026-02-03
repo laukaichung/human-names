@@ -1,6 +1,6 @@
 {
   "countryId": 114,
-  "maleNames": [
+  "names": [
     "Peter",
     "Ryan",
     "Deon",
@@ -31,17 +31,5 @@
     "Hendrik",
     "Willem",
     "Samuel"
-  ],
-  "femaleNames": [
-    "Ndapwa",
-    "Mery",
-    "Helena",
-    "Selma",
-    "Penehafo",
-    "Nandi",
-    "Beata",
-    "Loide",
-    "Frieda",
-    "Iyaloo"
   ]
 }

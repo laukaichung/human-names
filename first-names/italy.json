@@ -1,6 +1,6 @@
 {
   "countryId": 12,
-  "maleNames": [
+  "names": [
     "Leonardo",
     "Francesco",
     "Tommaso",
@@ -51,27 +51,5 @@
     "Tiziano",
     "Valerio",
     "Flavio"
-  ],
-  "femaleNames": [
-    "Sofia",
-    "Aurora",
-    "Giulia",
-    "Ginevra",
-    "Beatrice",
-    "Alice",
-    "Vittoria",
-    "Emma",
-    "Ludovica",
-    "Matilde",
-    "Margherita",
-    "Anna",
-    "Chiara",
-    "Gaia",
-    "Bianca",
-    "Sara",
-    "Noemi",
-    "Nicole",
-    "Francesca",
-    "Alessia"
   ]
 }

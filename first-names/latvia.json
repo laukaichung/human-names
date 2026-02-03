@@ -1,6 +1,6 @@
 {
   "countryId": 122,
-  "maleNames": [
+  "names": [
     "Raimonds",
     "Kristers",
     "Daniels",
@@ -16,6 +16,5 @@
     "Vitālijs",
     "Raivis",
     "Artūrs"
-  ],
-  "femaleNames": ["Līga", "Marta", "Elīna", "Sofija", "Anna"]
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "countryId": 20,
-  "maleNames": [
+  "names": [
     "Luka",
     "Lazar",
     "Vasilije",
@@ -51,17 +51,5 @@
     "Miko",
     "Dražen",
     "Borislav"
-  ],
-  "femaleNames": [
-    "Sofija",
-    "Dunja",
-    "Milica",
-    "Sara",
-    "Nikolina",
-    "Teodora",
-    "Lena",
-    "Ana",
-    "Petra",
-    "Tara"
   ]
 }

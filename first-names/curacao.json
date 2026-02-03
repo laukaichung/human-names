@@ -1,6 +1,6 @@
 {
   "countryId": 111,
-  "maleNames": [
+  "names": [
     "Cuco",
     "Leandro",
     "Juninho",
@@ -51,17 +51,5 @@
     "Diego",
     "Elia",
     "Yanis"
-  ],
-  "femaleNames": [
-    "Kiara",
-    "Shanty",
-    "Nishanty",
-    "Dahnee",
-    "Zairah",
-    "Aisha",
-    "Jandira",
-    "Taisha",
-    "Keana",
-    "Solaika"
   ]
 }

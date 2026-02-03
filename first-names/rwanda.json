@@ -1,6 +1,6 @@
 {
   "countryId": 143,
-  "maleNames": [
+  "names": [
     "Thierry",
     "Djihad",
     "Innocent",
@@ -31,17 +31,5 @@
     "Rashid",
     "Lague",
     "Muhadjiri"
-  ],
-  "femaleNames": [
-    "Divine",
-    "Ange",
-    "Clarisse",
-    "Beata",
-    "Sandrine",
-    "Esperance",
-    "Valentine",
-    "Immaculee",
-    "Josiane",
-    "Marie"
   ]
 }

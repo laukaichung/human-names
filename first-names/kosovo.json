@@ -1,6 +1,6 @@
 {
   "countryId": 79,
-  "maleNames": [
+  "names": [
     "Vedat",
     "Milot",
     "Edon",
@@ -16,6 +16,5 @@
     "Visar",
     "Donat",
     "Zymer"
-  ],
-  "femaleNames": ["Dafina", "Dua", "Era", "Rita", "Majlinda"]
+  ]
 }

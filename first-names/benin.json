@@ -1,6 +1,6 @@
 {
   "countryId": 99,
-  "maleNames": [
+  "names": [
     "Steve",
     "Saturnin",
     "Olivier",
@@ -51,17 +51,5 @@
     "Ghislaim",
     "Hamidou",
     "Imrane"
-  ],
-  "femaleNames": [
-    "Noelie",
-    "Milord",
-    "Yolande",
-    "Awa",
-    "Nadège",
-    "Odile",
-    "Pascaline",
-    "Rachida",
-    "Safiath",
-    "Tatiana"
   ]
 }

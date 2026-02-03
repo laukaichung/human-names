@@ -1,6 +1,6 @@
 {
   "countryId": 21,
-  "maleNames": [
+  "names": [
     "Mamadou",
     "Abdoulaye",
     "Cheikh",
@@ -51,17 +51,5 @@
     "Malick",
     "Ndiaga",
     "Sidy"
-  ],
-  "femaleNames": [
-    "Fatoumata",
-    "Aminata",
-    "Aissatou",
-    "Mariama",
-    "Khadidiatou",
-    "Astou",
-    "Maimouna",
-    "Binetou",
-    "Adja",
-    "Coumba"
   ]
 }

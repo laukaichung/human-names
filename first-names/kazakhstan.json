@@ -1,6 +1,6 @@
 {
   "countryId": 101,
-  "maleNames": [
+  "names": [
     "Bakhtiyor",
     "Nuraly",
     "Abat",
@@ -16,6 +16,5 @@
     "Sultanbek",
     "Bagdat",
     "Aleksandr"
-  ],
-  "femaleNames": ["Alua", "Aisulu", "Madina", "Ayana", "Zhanar"]
+  ]
 }

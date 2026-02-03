@@ -1,6 +1,6 @@
 {
   "countryId": 164,
-  "maleNames": [
+  "names": [
     "Keithroy",
     "Tishan",
     "Romaine",
@@ -31,17 +31,5 @@
     "Tahary",
     "Kyron",
     "Eston"
-  ],
-  "femaleNames": [
-    "Tessa",
-    "Shandira",
-    "Latoya",
-    "Kalia",
-    "Shena",
-    "Akila",
-    "Zuwena",
-    "Tariana",
-    "Jeneve",
-    "Saskia"
   ]
 }

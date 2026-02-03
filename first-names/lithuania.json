@@ -1,6 +1,6 @@
 {
   "countryId": 151,
-  "maleNames": [
+  "names": [
     "Arvydas",
     "Gytis",
     "Linas",
@@ -31,17 +31,5 @@
     "Jonas",
     "Antanas",
     "Petras"
-  ],
-  "femaleNames": [
-    "Gabija",
-    "Austėja",
-    "Emilija",
-    "Kamilė",
-    "Liepa",
-    "Sofija",
-    "Rugilė",
-    "Amelija",
-    "Ugnė",
-    "Ema"
   ]
 }

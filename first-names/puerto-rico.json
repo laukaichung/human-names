@@ -1,6 +1,6 @@
 {
   "countryId": 176,
-  "maleNames": [
+  "names": [
     "Jeremy",
     "Wilfredo",
     "Joel",
@@ -31,17 +31,5 @@
     "Ramon",
     "Angel",
     "Victor"
-  ],
-  "femaleNames": [
-    "Adriana",
-    "Monica",
-    "Paola",
-    "Yarimar",
-    "Alondra",
-    "Kiara",
-    "Kamila",
-    "Isabella",
-    "Sofia",
-    "Victoria"
   ]
 }

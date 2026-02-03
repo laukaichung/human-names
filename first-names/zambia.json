@@ -1,6 +1,6 @@
 {
   "countryId": 85,
-  "maleNames": [
+  "names": [
     "Patson",
     "Fashion",
     "Enock",
@@ -31,17 +31,5 @@
     "Pride",
     "Bright",
     "Shadrick"
-  ],
-  "femaleNames": [
-    "Chipo",
-    "Luyando",
-    "Mapalo",
-    "Chanda",
-    "Mutale",
-    "Mwansa",
-    "Bwalya",
-    "Kondwani",
-    "Nisile",
-    "Thandiwe"
   ]
 }

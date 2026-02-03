@@ -1,6 +1,6 @@
 {
   "countryId": 42,
-  "maleNames": [
+  "names": [
     "Riyad",
     "Islam",
     "Baghdad",
@@ -51,17 +51,5 @@
     "Rachid",
     "Hamid",
     "Idir"
-  ],
-  "femaleNames": [
-    "Lina",
-    "Meriem",
-    "Imane",
-    "Selma",
-    "Anissa",
-    "Amel",
-    "Nour",
-    "Sonia",
-    "Kenza",
-    "Inès"
   ]
 }

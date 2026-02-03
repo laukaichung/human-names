@@ -1,6 +1,6 @@
 {
   "countryId": 157,
-  "maleNames": [
+  "names": [
     "Sunil",
     "Gurpreet",
     "Sandesh",
@@ -16,6 +16,5 @@
     "Naorem",
     "Jeakson",
     "Suresh"
-  ],
-  "femaleNames": ["Anishka", "Aaradhya", "Vihaan", "Saanvi", "Myra"]
+  ]
 }

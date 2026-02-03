@@ -1,6 +1,6 @@
 {
   "countryId": 116,
-  "maleNames": [
+  "names": [
     "Pieros",
     "Loizos",
     "Grigoris",
@@ -11,6 +11,5 @@
     "Charalambos",
     "Ioannis",
     "Michalis"
-  ],
-  "femaleNames": ["Maria", "Eleni", "Androulla", "Georgia", "Anna"]
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "countryId": 58,
-  "maleNames": [
+  "names": [
     "Hamari",
     "Amadou",
     "Abdoulaye",
@@ -51,17 +51,5 @@
     "Nouhoum",
     "Sidy",
     "Zana"
-  ],
-  "femaleNames": [
-    "Fatoumata",
-    "Mariam",
-    "Aminata",
-    "Awa",
-    "Kadiatou",
-    "Oumou",
-    "Djénéba",
-    "Sali",
-    "Rokiatou",
-    "Fanta"
   ]
 }

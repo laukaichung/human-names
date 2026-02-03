@@ -1,6 +1,6 @@
 {
   "countryId": 107,
-  "maleNames": [
+  "names": [
     "Neil",
     "Gerrit",
     "Jefferson",
@@ -31,17 +31,5 @@
     "Ricardo",
     "Anton",
     "Renz"
-  ],
-  "femaleNames": [
-    "Angel",
-    "Liza",
-    "Catriona",
-    "Pia",
-    "Marian",
-    "Bea",
-    "Kathryn",
-    "Nadine",
-    "Janine",
-    "Maine"
   ]
 }

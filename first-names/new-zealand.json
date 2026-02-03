@@ -1,6 +1,6 @@
 {
   "countryId": 77,
-  "maleNames": [
+  "names": [
     "Chris",
     "Sarpreet",
     "Joe",
@@ -31,17 +31,5 @@
     "Flynn",
     "Kiwi",
     "Manaia"
-  ],
-  "femaleNames": [
-    "Maia",
-    "Aroha",
-    "Anahera",
-    "Kaia",
-    "Manaia",
-    "Ruby",
-    "Willow",
-    "Hazel",
-    "Isla",
-    "Sophie"
   ]
 }

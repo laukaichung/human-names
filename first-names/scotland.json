@@ -1,6 +1,6 @@
 {
   "countryId": 36,
-  "maleNames": [
+  "names": [
     "Andrew",
     "Scott",
     "John",
@@ -31,17 +31,5 @@
     "Finlay",
     "Fraser",
     "Hamish"
-  ],
-  "femaleNames": [
-    "Isla",
-    "Sian",
-    "Freya",
-    "Maisie",
-    "Evie",
-    "Skye",
-    "Bonnie",
-    "Ailsa",
-    "Iona",
-    "Morven"
   ]
 }

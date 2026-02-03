@@ -1,6 +1,6 @@
 {
   "countryId": 156,
-  "maleNames": [
+  "names": [
     "Raymond",
     "Alwin",
     "Emmanuel",
@@ -31,17 +31,5 @@
     "Simon",
     "Charles",
     "Titus"
-  ],
-  "femaleNames": [
-    "Lydia",
-    "Serah",
-    "Joy",
-    "Ruth",
-    "Hellen",
-    "Grace",
-    "Ester",
-    "Delilah",
-    "Rose",
-    "Alice"
   ]
 }

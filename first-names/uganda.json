@@ -1,6 +1,6 @@
 {
   "countryId": 98,
-  "maleNames": [
+  "names": [
     "Denis",
     "Khalid",
     "Faruku",
@@ -51,17 +51,5 @@
     "Taddeo",
     "Umar",
     "Victor"
-  ],
-  "femaleNames": [
-    "Sandra",
-    "Ruth",
-    "Hasifah",
-    "Viola",
-    "Fauzia",
-    "Juliet",
-    "Ritah",
-    "Joan",
-    "Zaina",
-    "Daisy"
   ]
 }

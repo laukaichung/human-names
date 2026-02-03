@@ -1,6 +1,6 @@
 {
   "countryId": 106,
-  "maleNames": [
+  "names": [
     "Chao-an",
     "Po-liang",
     "Mao-yuan",
@@ -31,17 +31,5 @@
     "Chia-huang",
     "Li-man",
     "Chun-yi"
-  ],
-  "femaleNames": [
-    "Pei-chen",
-    "Hsuan-yi",
-    "Yu-hsuan",
-    "Chia-jung",
-    "Sin-yun",
-    "Chiu-sun",
-    "Li-ping",
-    "Tzu-shan",
-    "Wei-ping",
-    "Su-ching"
   ]
 }

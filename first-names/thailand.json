@@ -1,6 +1,6 @@
 {
   "countryId": 103,
-  "maleNames": [
+  "names": [
     "Chanathip",
     "Theerathon",
     "Supachok",
@@ -31,17 +31,5 @@
     "Theerisak",
     "Anan",
     "Kaman"
-  ],
-  "femaleNames": [
-    "Nida",
-    "Patchara",
-    "Kanya",
-    "Mali",
-    "Siriporn",
-    "Araya",
-    "Wanda",
-    "Ratana",
-    "Sunisa",
-    "Malee"
   ]
 }

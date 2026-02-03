@@ -1,6 +1,6 @@
 {
   "countryId": 142,
-  "maleNames": [
+  "names": [
     "Gabadinho",
     "Richard",
     "Stanley",
@@ -16,6 +16,5 @@
     "Dennis",
     "Gomezgani",
     "Robert"
-  ],
-  "femaleNames": ["Tiwonge", "Kondwani", "Chifundo", "Mphatso", "Tamanda"]
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "countryId": 86,
-  "maleNames": [
+  "names": [
     "Chancel",
     "Gael",
     "Yoane",
@@ -51,17 +51,5 @@
     "Isaac",
     "Jordan",
     "Kabongo"
-  ],
-  "femaleNames": [
-    "Dorcas",
-    "Naomie",
-    "Grâce",
-    "Exaucée",
-    "Belvie",
-    "Ruth",
-    "Esther",
-    "Sarah",
-    "Plamedi",
-    "Divine"
   ]
 }

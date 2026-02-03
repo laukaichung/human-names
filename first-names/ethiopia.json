@@ -1,6 +1,6 @@
 {
   "countryId": 121,
-  "maleNames": [
+  "names": [
     "Abubeker",
     "Kenean",
     "Surafel",
@@ -16,6 +16,5 @@
     "Wogene",
     "Henok",
     "Biniam"
-  ],
-  "femaleNames": ["Loza", "Rehima", "Senaf", "Medina", "Emebet"]
+  ]
 }

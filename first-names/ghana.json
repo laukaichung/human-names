@@ -1,6 +1,6 @@
 {
   "countryId": 67,
-  "maleNames": [
+  "names": [
     "Mohammed",
     "Inaki",
     "Jordan",
@@ -51,17 +51,5 @@
     "Kelvin",
     "Jerome",
     "Ishaku"
-  ],
-  "femaleNames": [
-    "Ama",
-    "Akosua",
-    "Adwoa",
-    "Abena",
-    "Akua",
-    "Yaa",
-    "Afia",
-    "Priscilla",
-    "Elizabeth",
-    "Mercy"
   ]
 }

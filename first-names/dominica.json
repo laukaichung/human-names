@@ -1,6 +1,6 @@
 {
   "countryId": 218,
-  "maleNames": [
+  "names": [
     "Briel",
     "Julian",
     "Glenson",
@@ -11,6 +11,5 @@
     "Donan",
     "Fitz",
     "Javid"
-  ],
-  "femaleNames": ["Aaliyah", "Briana", "Jada", "Shania", "Tessa"]
+  ]
 }

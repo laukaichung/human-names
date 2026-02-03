@@ -1,6 +1,6 @@
 {
   "countryId": 115,
-  "maleNames": [
+  "names": [
     "Tumisang",
     "Thatayaone",
     "Mothusi",
@@ -11,6 +11,5 @@
     "Thabo",
     "Lebogang",
     "Mogakolodi"
-  ],
-  "femaleNames": ["Amantle", "Refilwe", "Neo", "Lesedi", "Thato"]
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "countryId": 73,
-  "maleNames": [
+  "names": [
     "Stevan",
     "Stefan",
     "Adam",
@@ -51,17 +51,5 @@
     "Ognjen",
     "Relja",
     "Todor"
-  ],
-  "femaleNames": [
-    "Jelena",
-    "Milica",
-    "Marija",
-    "Ivana",
-    "Ana",
-    "Nikolina",
-    "Anđela",
-    "Jovana",
-    "Dragana",
-    "Svetlana"
   ]
 }

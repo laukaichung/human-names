@@ -1,6 +1,6 @@
 {
   "countryId": 216,
-  "maleNames": [
+  "names": [
     "Taylor",
     "Grover",
     "Harlem",
@@ -11,6 +11,5 @@
     "Emiel",
     "Ngere",
     "Jarves"
-  ],
-  "femaleNames": ["Tepaeru", "Moana", "Kuria", "Ngamata", "Ruta"]
+  ]
 }

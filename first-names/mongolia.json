@@ -1,6 +1,6 @@
 {
   "countryId": 184,
-  "maleNames": [
+  "names": [
     "Ganbayar",
     "Tuguldur",
     "Bilguun",
@@ -16,12 +16,5 @@
     "Nyam-Osor",
     "Uuganbayar",
     "Buyannemekh"
-  ],
-  "femaleNames": [
-    "Altantsetseg",
-    "Enkhjargal",
-    "Nomuun",
-    "Khulan",
-    "Sarangerel"
   ]
 }

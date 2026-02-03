@@ -1,6 +1,6 @@
 {
   "countryId": 171,
-  "maleNames": [
+  "names": [
     "Bong",
     "Azariah",
     "Brian",
@@ -31,17 +31,5 @@
     "Steven",
     "Thomas",
     "Peter"
-  ],
-  "femaleNames": [
-    "Lina",
-    "Marie",
-    "Leiwia",
-    "Nancy",
-    "Rose",
-    "Anna",
-    "Merilyn",
-    "Susan",
-    "Grace",
-    "Leisale"
   ]
 }

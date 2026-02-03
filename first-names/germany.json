@@ -1,6 +1,6 @@
 {
   "countryId": 16,
-  "maleNames": [
+  "names": [
     "Noah",
     "Matteo",
     "Leon",
@@ -51,27 +51,5 @@
     "Andreas",
     "Tobias",
     "Kevin"
-  ],
-  "femaleNames": [
-    "Emilia",
-    "Mia",
-    "Sophia",
-    "Emma",
-    "Hannah",
-    "Lina",
-    "Mila",
-    "Ella",
-    "Lea",
-    "Marie",
-    "Clara",
-    "Leni",
-    "Leonie",
-    "Lotta",
-    "Ida",
-    "Anna",
-    "Amelie",
-    "Nele",
-    "Luisa",
-    "Johanna"
   ]
 }

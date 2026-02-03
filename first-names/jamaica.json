@@ -1,6 +1,6 @@
 {
   "countryId": 68,
-  "maleNames": [
+  "names": [
     "Andre",
     "Michail",
     "Leon",
@@ -51,17 +51,5 @@
     "Jamoi",
     "Demar",
     "Ladale"
-  ],
-  "femaleNames": [
-    "Khadiia",
-    "Bunny",
-    "Jody",
-    "Sashana",
-    "Chinyelu",
-    "Den-Den",
-    "Tiffany",
-    "Trudi",
-    "Kayla",
-    "Peyton"
   ]
 }

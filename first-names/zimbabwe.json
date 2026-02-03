@@ -1,6 +1,6 @@
 {
   "countryId": 132,
-  "maleNames": [
+  "names": [
     "Khama",
     "Knowledge",
     "Marvelous",
@@ -31,17 +31,5 @@
     "Nyasha",
     "Willard",
     "Evans"
-  ],
-  "femaleNames": [
-    "Ruvheneko",
-    "Nyarai",
-    "Tinashe",
-    "Chipo",
-    "Sekai",
-    "Tandiwe",
-    "Vimbai",
-    "Zanele",
-    "Farai",
-    "Rutendo"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "countryId": 220,
-  "maleNames": [
+  "names": [
     "Billy",
     "Soukaphone",
     "Phoutthasay",
@@ -16,6 +16,5 @@
     "Thipphachanth",
     "Phoutthavong",
     "Xaysana"
-  ],
-  "femaleNames": ["Mali", "Bouapha", "Chanpheng", "Keo", "Davanh"]
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "countryId": 5,
-  "maleNames": [
+  "names": [
     "Antoni",
     "Jan",
     "Aleksander",
@@ -51,27 +51,5 @@
     "Oliwier",
     "Ksawery",
     "Alan"
-  ],
-  "femaleNames": [
-    "Zofia",
-    "Zuzanna",
-    "Hanna",
-    "Julia",
-    "Maja",
-    "Laura",
-    "Oliwia",
-    "Alicja",
-    "Lena",
-    "Pola",
-    "Maria",
-    "Emilia",
-    "Antonina",
-    "Wiktoria",
-    "Iga",
-    "Michalina",
-    "Liliana",
-    "Klara",
-    "Amelia",
-    "Nela"
   ]
 }
