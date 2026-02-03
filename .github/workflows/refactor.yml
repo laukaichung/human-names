@@ -1,0 +1,28 @@
+on:
+  push:
+    paths:
+      - 'first-names/**'
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  transform-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Transform JSON files
+        run: |
+          # Loop through all JSON files in the directory
+          for file in first-names/*.json; do
+            echo "Processing $file..."
+          
+            # Use jq to rename maleNames to names and remove femaleNames
+            jq 'del(.femaleNames) | .names = .maleNames | del(.maleNames)' "$file" > tmp.json && mv tmp.json "$file"
+          done
+
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Refactor JSON: renamed maleNames to names and removed femaleNames"
+          file_pattern: 'first-names/*.json'
