@@ -3,8 +3,8 @@ name: Normalize and Merge Name Databases
 on:
   push:
     paths:
-      - 'first-names/**'
-      - 'last-names/**'
+      - 'first-names/*.json' # Added for explicit file matching
+      - 'last-names/*.json'
   workflow_dispatch:
 
 # Added: Explicit permissions to allow pushing changes
