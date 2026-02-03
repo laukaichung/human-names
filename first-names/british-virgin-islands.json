@@ -1,6 +1,6 @@
 {
   "countryId": 215,
-  "maleNames": [
+  "names": [
     "Troy",
     "Tyler",
     "Kristian",
@@ -31,17 +31,5 @@
     "Omari",
     "Caleb",
     "Adrian"
-  ],
-  "femaleNames": [
-    "Althea",
-    "Khadija",
-    "T`Khai",
-    "Shania",
-    "Kiara",
-    "Zaria",
-    "Arianna",
-    "Jada",
-    "Maya",
-    "Nia"
   ]
 }

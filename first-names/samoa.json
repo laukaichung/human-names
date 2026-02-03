@@ -1,6 +1,6 @@
 {
   "countryId": 186,
-  "maleNames": [
+  "names": [
     "Andrew",
     "Faitala",
     "Luki",
@@ -31,17 +31,5 @@
     "Laki",
     "Fia",
     "Tasi"
-  ],
-  "femaleNames": [
-    "Malia",
-    "Sina",
-    "Teuila",
-    "Losa",
-    "Vaitiare",
-    "Moana",
-    "Fetuao",
-    "Tala",
-    "Olaga",
-    "Talofa"
   ]
 }

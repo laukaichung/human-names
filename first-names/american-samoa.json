@@ -1,6 +1,6 @@
 {
   "countryId": 185,
-  "maleNames": [
+  "names": [
     "Junior",
     "Mika",
     "Tua",
@@ -31,17 +31,5 @@
     "Fia",
     "Tasi",
     "Sefo"
-  ],
-  "femaleNames": [
-    "Olaga",
-    "Talofa",
-    "Sina",
-    "Teuila",
-    "Fiafia",
-    "Losa",
-    "Malia",
-    "Tiare",
-    "Vaitiare",
-    "Moana"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "countryId": 109,
-  "maleNames": [
+  "names": [
     "Jason",
     "Marcus",
     "Travis",
@@ -31,17 +31,5 @@
     "Caleb",
     "Tenzin",
     "Kaito"
-  ],
-  "femaleNames": [
-    "Tasi",
-    "Sirena",
-    "Ha`ani",
-    "Ina",
-    "Lina",
-    "Maria",
-    "Elena",
-    "Selena",
-    "Brianna",
-    "Alyssa"
   ]
 }

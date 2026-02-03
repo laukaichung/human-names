@@ -1,6 +1,6 @@
 {
   "countryId": 29,
-  "maleNames": [
+  "names": [
     "Mohamed",
     "Ahmed",
     "Hamza",
@@ -51,27 +51,5 @@
     "Sami",
     "Kamal",
     "Abdel"
-  ],
-  "femaleNames": [
-    "Fatima",
-    "Khadija",
-    "Zineb",
-    "Salma",
-    "Malak",
-    "Aya",
-    "Hiba",
-    "Sara",
-    "Layla",
-    "Ines",
-    "Kenza",
-    "Ghita",
-    "Imane",
-    "Soukaina",
-    "Meryem",
-    "Nadia",
-    "Asmaa",
-    "Loubna",
-    "Hasna",
-    "Ikram"
   ]
 }

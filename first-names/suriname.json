@@ -1,6 +1,6 @@
 {
   "countryId": 137,
-  "maleNames": [
+  "names": [
     "Sheraldo",
     "Gleofilo",
     "Shaquille",
@@ -31,17 +31,5 @@
     "Denzel",
     "Riedewald",
     "Leandro"
-  ],
-  "femaleNames": [
-    "Milany",
-    "Xaviera",
-    "Chenneve",
-    "Zuleika",
-    "Damaris",
-    "Anjali",
-    "Indira",
-    "Saskia",
-    "Latifa",
-    "Desiree"
   ]
 }

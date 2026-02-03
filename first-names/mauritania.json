@@ -1,6 +1,6 @@
 {
   "countryId": 195,
-  "maleNames": [
+  "names": [
     "Aboubakar",
     "Hemeya",
     "Bodda",
@@ -16,6 +16,5 @@
     "Omar",
     "Khassa",
     "Abdou"
-  ],
-  "femaleNames": ["Mariem", "Fatimetou", "Aichetou", "Zeynabu", "Khady"]
+  ]
 }

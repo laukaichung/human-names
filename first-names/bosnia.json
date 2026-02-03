@@ -1,6 +1,6 @@
 {
   "countryId": 59,
-  "maleNames": [
+  "names": [
     "Edin",
     "Miralem",
     "Sead",
@@ -16,6 +16,5 @@
     "Rade",
     "Smail",
     "Eldar"
-  ],
-  "femaleNames": ["Ajla", "Emina", "Lejla", "Amra", "Hana"]
+  ]
 }

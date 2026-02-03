@@ -1,6 +1,6 @@
 {
   "countryId": 28,
-  "maleNames": [
+  "names": [
     "Patrik",
     "Tomáš",
     "Adam",
@@ -16,6 +16,5 @@
     "Jiří",
     "Martin",
     "Jaroslav"
-  ],
-  "femaleNames": ["Eliška", "Anna", "Adéla", "Tereza", "Sofie"]
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "countryId": 202,
-  "maleNames": [
+  "names": [
     "Jett",
     "Jimson",
     "Dusty",
@@ -31,17 +31,5 @@
     "Justin",
     "Jason",
     "Brandon"
-  ],
-  "femaleNames": [
-    "Z`Nia",
-    "T`Anna",
-    "Sade",
-    "Kiara",
-    "Maya",
-    "Alana",
-    "Brianna",
-    "Jada",
-    "Keira",
-    "Tiana"
   ]
 }

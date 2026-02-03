@@ -1,6 +1,6 @@
 {
   "countryId": 88,
-  "maleNames": [
+  "names": [
     "Juan",
     "Luis",
     "Oscar",
@@ -31,17 +31,5 @@
     "Jorge",
     "Manuel",
     "José"
-  ],
-  "femaleNames": [
-    "Xiomara",
-    "Arlen",
-    "Suyen",
-    "Yamileth",
-    "Idania",
-    "Keyla",
-    "Griselda",
-    "Ninoska",
-    "Mireya",
-    "Sayra"
   ]
 }

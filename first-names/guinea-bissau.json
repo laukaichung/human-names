@@ -1,6 +1,6 @@
 {
   "countryId": 112,
-  "maleNames": [
+  "names": [
     "Mama",
     "Dalcio",
     "Moreto",
@@ -16,6 +16,5 @@
     "Fali",
     "Houboulang",
     "Jonas"
-  ],
-  "femaleNames": ["Adama", "Fatoumata", "Mariama", "Binta", "Isatou"]
+  ]
 }

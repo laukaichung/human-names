@@ -1,6 +1,6 @@
 {
   "countryId": 205,
-  "maleNames": [
+  "names": [
     "Lesly",
     "Wood",
     "Marcel",
@@ -31,17 +31,5 @@
     "Rashad",
     "Dwayne",
     "Tariq"
-  ],
-  "femaleNames": [
-    "Anaya",
-    "Brianna",
-    "Kaitlyn",
-    "Sasha",
-    "Tanisha",
-    "Latoya",
-    "Skylar",
-    "Destiny",
-    "Raven",
-    "Shaniece"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "countryId": 49,
-  "maleNames": [
+  "names": [
     "Evan",
     "Caoimhín",
     "Chiedozie",
@@ -51,17 +51,5 @@
     "Barry",
     "Enda",
     "Declan"
-  ],
-  "femaleNames": [
-    "Katie",
-    "Denise",
-    "Niamh",
-    "Ruesha",
-    "Louise",
-    "Amber",
-    "Saoirse",
-    "Heather",
-    "Abbie",
-    "Chloe"
   ]
 }

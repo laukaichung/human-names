@@ -1,6 +1,6 @@
 {
   "countryId": 204,
-  "maleNames": [
+  "names": [
     "Jamal",
     "Topu",
     "Anisur",
@@ -11,6 +11,5 @@
     "Biplo",
     "Zoni",
     "Emon"
-  ],
-  "femaleNames": ["Sabina", "Maria", "Akhi", "Krishna", "Tahura"]
+  ]
 }

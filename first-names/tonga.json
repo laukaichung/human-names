@@ -1,6 +1,6 @@
 {
   "countryId": 187,
-  "maleNames": [
+  "names": [
     "Sione",
     "Tevita",
     "Viliami",
@@ -31,17 +31,5 @@
     "Tevis",
     "Lafaele",
     "Samuela"
-  ],
-  "femaleNames": [
-    "Mele",
-    "Seini",
-    "Laisa",
-    "Anaseini",
-    "Ana",
-    "Kalo",
-    "Tupou",
-    "Lesieli",
-    "Elenoa",
-    "Ofa"
   ]
 }

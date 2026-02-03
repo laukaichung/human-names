@@ -1,6 +1,6 @@
 {
   "countryId": 71,
-  "maleNames": [
+  "names": [
     "Aron",
     "Birkir",
     "Gylfi",
@@ -51,17 +51,5 @@
     "Baldur",
     "Daníel Leó",
     "Einar"
-  ],
-  "femaleNames": [
-    "Guðrún",
-    "Anna",
-    "Kristín",
-    "Sigríður",
-    "Margrét",
-    "Helga",
-    "Elín",
-    "Jóhanna",
-    "Soffía",
-    "Hildur"
   ]
 }

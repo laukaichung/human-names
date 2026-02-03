@@ -1,6 +1,6 @@
 {
   "countryId": 153,
-  "maleNames": [
+  "names": [
     "Victorien",
     "Youssouf",
     "Daniel",
@@ -31,17 +31,5 @@
     "Bachir",
     "Kader",
     "Sani"
-  ],
-  "femaleNames": [
-    "Fatouma",
-    "Aissata",
-    "Hadiza",
-    "Mariama",
-    "Ramatou",
-    "Zalika",
-    "Safiatou",
-    "Balkissa",
-    "Nana",
-    "Fati"
   ]
 }

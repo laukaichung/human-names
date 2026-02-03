@@ -1,6 +1,6 @@
 {
   "countryId": 46,
-  "maleNames": [
+  "names": [
     "Teemu",
     "Joel",
     "Lukas",
@@ -51,17 +51,5 @@
     "Artturi",
     "Sakari",
     "Esko"
-  ],
-  "femaleNames": [
-    "Aino",
-    "Eevi",
-    "Venla",
-    "Sofia",
-    "Ellen",
-    "Helmi",
-    "Emilia",
-    "Linnea",
-    "Pihla",
-    "Kerttu"
   ]
 }

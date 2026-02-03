@@ -1,6 +1,6 @@
 {
   "countryId": 41,
-  "maleNames": [
+  "names": [
     "Alparslan",
     "Yusuf",
     "Miraç",
@@ -51,17 +51,5 @@
     "İbrahim",
     "Kemal",
     "Yasin"
-  ],
-  "femaleNames": [
-    "Zeynep",
-    "Elif",
-    "Asel",
-    "Defne",
-    "Azra",
-    "Eylül",
-    "Nehir",
-    "Ebrar",
-    "Leya",
-    "Meryem"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "countryId": 65,
-  "maleNames": [
+  "names": [
     "Eldor",
     "Otabek",
     "Abbosbek",
@@ -51,17 +51,5 @@
     "Elyor",
     "Fayzulla",
     "Jamshid"
-  ],
-  "femaleNames": [
-    "Nigora",
-    "Shahlo",
-    "Madina",
-    "Lola",
-    "Guli",
-    "Zilola",
-    "Dilnoza",
-    "Malika",
-    "Sevara",
-    "Iroda"
   ]
 }

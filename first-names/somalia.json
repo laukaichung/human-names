@@ -1,6 +1,6 @@
 {
   "countryId": 197,
-  "maleNames": [
+  "names": [
     "Abdi",
     "Mohamed",
     "Ahmed",
@@ -31,17 +31,5 @@
     "Fahad",
     "Ayub",
     "Abshir"
-  ],
-  "femaleNames": [
-    "Fartun",
-    "Nimco",
-    "Hodan",
-    "Sahra",
-    "Hibaq",
-    "Ubax",
-    "Deeqa",
-    "Nasteexo",
-    "Leyla",
-    "Zahra"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "countryId": 182,
-  "maleNames": [
+  "names": [
     "Choi",
     "Ho",
     "Kam",
@@ -31,17 +31,5 @@
     "Fong",
     "Hoi",
     "Pun"
-  ],
-  "femaleNames": [
-    "Hoi",
-    "Ka",
-    "Sin",
-    "Wing",
-    "Wai",
-    "Sio",
-    "Mei",
-    "Iat",
-    "Man",
-    "Ian"
   ]
 }

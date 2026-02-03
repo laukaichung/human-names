@@ -1,6 +1,6 @@
 {
   "countryId": 22,
-  "maleNames": [
+  "names": [
     "Dominik",
     "Bence",
     "Máté",
@@ -51,17 +51,5 @@
     "Géza",
     "Gyula",
     "Vilmos"
-  ],
-  "femaleNames": [
-    "Hanna",
-    "Anna",
-    "Luca",
-    "Zoé",
-    "Léna",
-    "Zsófia",
-    "Boglárka",
-    "Jázmin",
-    "Gréta",
-    "Flóra"
   ]
 }

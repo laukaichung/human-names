@@ -1,6 +1,6 @@
 {
   "countryId": 55,
-  "maleNames": [
+  "names": [
     "Akram",
     "Almoez",
     "Hassan",
@@ -51,17 +51,5 @@
     "Nayef",
     "Tamim",
     "Rami"
-  ],
-  "femaleNames": [
-    "Maryam",
-    "Fatima",
-    "Noora",
-    "Amna",
-    "Hessa",
-    "Sara",
-    "Lulwa",
-    "Dana",
-    "Maha",
-    "Reem"
   ]
 }

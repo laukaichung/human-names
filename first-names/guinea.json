@@ -1,6 +1,6 @@
 {
   "countryId": 105,
-  "maleNames": [
+  "names": [
     "Mohamed",
     "Ibrahima",
     "Abdoulaye",
@@ -51,17 +51,5 @@
     "Samba",
     "Aly",
     "Kandet"
-  ],
-  "femaleNames": [
-    "Fatoumata",
-    "Amara",
-    "Adama",
-    "Kadiatou",
-    "Aminata",
-    "Hawa",
-    "Aicha",
-    "Mariame",
-    "Hadja",
-    "Maimouna"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "countryId": 25,
-  "maleNames": [
+  "names": [
     "Sardar",
     "Mehdi",
     "Alireza",
@@ -51,17 +51,5 @@
     "Keyvan",
     "Afshin",
     "Kamyar"
-  ],
-  "femaleNames": [
-    "Fatemeh",
-    "Zahra",
-    "Maryam",
-    "Nazanin",
-    "Sara",
-    "Elnaz",
-    "Roya",
-    "Niki",
-    "Tara",
-    "Sepideh"
   ]
 }

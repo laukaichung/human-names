@@ -1,6 +1,6 @@
 {
   "countryId": 191,
-  "maleNames": [
+  "names": [
     "Anjan",
     "Kiran",
     "Bimal",
@@ -31,17 +31,5 @@
     "Santosh",
     "Niraj",
     "Kuldip"
-  ],
-  "femaleNames": [
-    "Saraswati",
-    "Ariti",
-    "Ishwari",
-    "Sabina",
-    "Purnima",
-    "Anjali",
-    "Sita",
-    "Maya",
-    "Bimala",
-    "Laxmi"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "countryId": 155,
-  "maleNames": [
+  "names": [
     "Motebang",
     "Jane",
     "Katleho",
@@ -16,6 +16,5 @@
     "Sekhoane",
     "Thabiso",
     "Kopano"
-  ],
-  "femaleNames": ["Lerato", "Mpho", "Palesa", "Nthabiseng", "Khotsofalang"]
+  ]
 }

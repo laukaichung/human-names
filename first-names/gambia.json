@@ -1,6 +1,6 @@
 {
   "countryId": 90,
-  "maleNames": [
+  "names": [
     "Musa",
     "Yankuba",
     "Alieu",
@@ -16,6 +16,5 @@
     "Modou",
     "Lamin",
     "Sheriff"
-  ],
-  "femaleNames": ["Fatou", "Mariama", "Binta", "Isatou", "Jainaba"]
+  ]
 }

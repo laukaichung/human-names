@@ -1,6 +1,6 @@
 {
   "countryId": 8,
-  "maleNames": [
+  "names": [
     "Lei",
     "Wu",
     "Junling",
@@ -51,17 +51,5 @@
     "Yu",
     "Zheng",
     "Zhou"
-  ],
-  "femaleNames": [
-    "Shanshan",
-    "Rui",
-    "Wang",
-    "Li",
-    "Zhang",
-    "Wei",
-    "Jing",
-    "Yan",
-    "Haiyan",
-    "Mengyu"
   ]
 }

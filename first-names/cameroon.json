@@ -1,6 +1,6 @@
 {
   "countryId": 60,
-  "maleNames": [
+  "names": [
     "Aboubakar",
     "André",
     "André-Frank",
@@ -51,17 +51,5 @@
     "Marcel",
     "Narcisse",
     "Patrick"
-  ],
-  "femaleNames": [
-    "Aicha",
-    "Bernadette",
-    "Chantal",
-    "Esther",
-    "Florence",
-    "Grace",
-    "Helene",
-    "Isabelle",
-    "Jeanne",
-    "Marie"
   ]
 }

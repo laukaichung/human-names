@@ -1,6 +1,6 @@
 {
   "countryId": 52,
-  "maleNames": [
+  "names": [
     "Yeferson",
     "Salomón",
     "Darwin",
@@ -31,17 +31,5 @@
     "Machís",
     "Córdova",
     "Eric"
-  ],
-  "femaleNames": [
-    "Yulimar",
-    "Deyna",
-    "Oriana",
-    "Gabriela",
-    "Andrea",
-    "Daniela",
-    "Michelle",
-    "Bárbara",
-    "Paola",
-    "Estefanía"
   ]
 }

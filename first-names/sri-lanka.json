@@ -1,6 +1,6 @@
 {
   "countryId": 199,
-  "maleNames": [
+  "names": [
     "Charith",
     "Wanindu",
     "Kusal",
@@ -31,17 +31,5 @@
     "Roshen",
     "Oshada",
     "Vishwa"
-  ],
-  "femaleNames": [
-    "Nilanthi",
-    "Sanduni",
-    "Tharushi",
-    "Dilani",
-    "Piyumi",
-    "Ishara",
-    "Chathurika",
-    "Hashini",
-    "Kavindi",
-    "Hansini"
   ]
 }

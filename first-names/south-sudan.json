@@ -1,6 +1,6 @@
 {
   "countryId": 174,
-  "maleNames": [
+  "names": [
     "Tito",
     "Achol",
     "Peter",
@@ -31,17 +31,5 @@
     "John",
     "Philip",
     "Simon"
-  ],
-  "femaleNames": [
-    "Nyandeng",
-    "Adut",
-    "Achol",
-    "Nyanen",
-    "Abuk",
-    "Akech",
-    "Nyibol",
-    "Nyidier",
-    "Mary",
-    "Elizabeth"
   ]
 }

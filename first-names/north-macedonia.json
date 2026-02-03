@@ -1,6 +1,6 @@
 {
   "countryId": 76,
-  "maleNames": [
+  "names": [
     "Enis",
     "Eljif",
     "Ezgjan",
@@ -31,17 +31,5 @@
     "Blagoja",
     "Goran",
     "Zoran"
-  ],
-  "femaleNames": [
-    "Elena",
-    "Bojana",
-    "Simona",
-    "Marija",
-    "Katerina",
-    "Jovana",
-    "Ana",
-    "Ivana",
-    "Milica",
-    "Sofija"
   ]
 }

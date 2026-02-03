@@ -1,6 +1,6 @@
 {
   "countryId": 6,
-  "maleNames": [
+  "names": [
     "Matthew",
     "Shinichi",
     "Tsun",
@@ -16,6 +16,5 @@
     "Ngan",
     "Yue",
     "Gerane"
-  ],
-  "femaleNames": ["Wing", "Yan", "Mei", "Tsz", "Hoi"]
+  ]
 }

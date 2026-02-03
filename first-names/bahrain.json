@@ -1,6 +1,6 @@
 {
   "countryId": 80,
-  "maleNames": [
+  "names": [
     "Sayed",
     "Abdulla",
     "Kamil",
@@ -11,6 +11,5 @@
     "Waleed",
     "Hamad",
     "Talal"
-  ],
-  "femaleNames": ["Fatima", "Mariam", "Noora", "Sara", "Hessa"]
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "countryId": 102,
-  "maleNames": [
+  "names": [
     "Quang",
     "Hung",
     "Tuan",
@@ -31,17 +31,5 @@
     "Huy",
     "Kien",
     "Binh"
-  ],
-  "femaleNames": [
-    "Anh",
-    "Linh",
-    "Lan",
-    "Mai",
-    "Phuong",
-    "Vy",
-    "Chau",
-    "Hien",
-    "Trang",
-    "Yen"
   ]
 }

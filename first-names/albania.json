@@ -1,6 +1,6 @@
 {
   "countryId": 72,
-  "maleNames": [
+  "names": [
     "Armando",
     "Kristjan",
     "Nedim",
@@ -51,17 +51,5 @@
     "Lindon",
     "Taulant",
     "Enea"
-  ],
-  "femaleNames": [
-    "Meggy",
-    "Esi",
-    "Artemis",
-    "Matea",
-    "Klea",
-    "Kejsi",
-    "Ambra",
-    "Sara",
-    "Anjeza",
-    "Eni"
   ]
 }

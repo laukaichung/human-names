@@ -1,6 +1,6 @@
 {
   "countryId": 140,
-  "maleNames": [
+  "names": [
     "Merveil",
     "Silvère",
     "Gaius",
@@ -11,6 +11,5 @@
     "Bryan",
     "Yann",
     "Fred"
-  ],
-  "femaleNames": ["Grace", "Victoire", "Chancelvie", "Exaucée", "Priscille"]
+  ]
 }

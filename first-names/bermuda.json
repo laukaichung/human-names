@@ -1,6 +1,6 @@
 {
   "countryId": 161,
-  "maleNames": [
+  "names": [
     "Nahki",
     "Dante",
     "Zeiko",
@@ -11,6 +11,5 @@
     "Lejaun",
     "Milan",
     "Dale"
-  ],
-  "femaleNames": ["Aaliyah", "Deshae", "Khyla", "Trinae", "Nia"]
+  ]
 }

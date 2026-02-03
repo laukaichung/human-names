@@ -1,6 +1,6 @@
 {
   "countryId": 24,
-  "maleNames": [
+  "names": [
     "Liam",
     "Noah",
     "Oliver",
@@ -51,37 +51,5 @@
     "Ryan",
     "Justin",
     "Austin"
-  ],
-  "femaleNames": [
-    "Olivia",
-    "Emma",
-    "Charlotte",
-    "Amelia",
-    "Sophia",
-    "Mia",
-    "Isabella",
-    "Ava",
-    "Evelyn",
-    "Luna",
-    "Harper",
-    "Sofia",
-    "Scarlett",
-    "Elizabeth",
-    "Eleanor",
-    "Emily",
-    "Chloe",
-    "Mila",
-    "Violet",
-    "Penelope",
-    "Gianna",
-    "Aria",
-    "Abigail",
-    "Ella",
-    "Avery",
-    "Hazel",
-    "Nora",
-    "Lily",
-    "Madison",
-    "Layla"
   ]
 }

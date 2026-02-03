@@ -1,6 +1,6 @@
 {
   "countryId": 9,
-  "maleNames": [
+  "names": [
     "Gabriel",
     "Raphaël",
     "Léo",
@@ -51,27 +51,5 @@
     "Robin",
     "Oscar",
     "Ayden"
-  ],
-  "femaleNames": [
-    "Louise",
-    "Jade",
-    "Ambre",
-    "Alba",
-    "Emma",
-    "Alice",
-    "Rose",
-    "Anna",
-    "Romy",
-    "Mia",
-    "Lina",
-    "Lena",
-    "Lou",
-    "Chloé",
-    "Inaya",
-    "Léa",
-    "Julia",
-    "Agathe",
-    "Iris",
-    "Charlie"
   ]
 }

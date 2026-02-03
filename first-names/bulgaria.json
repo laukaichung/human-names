@@ -1,6 +1,6 @@
 {
   "countryId": 78,
-  "maleNames": [
+  "names": [
     "Kiril",
     "Despodov",
     "Iliya",
@@ -51,17 +51,5 @@
     "Mariyan",
     "Tihomir",
     "Blagovest"
-  ],
-  "femaleNames": [
-    "Viktoria",
-    "Maria",
-    "Nikol",
-    "Alexandra",
-    "Sofia",
-    "Raya",
-    "Gabriela",
-    "Ioana",
-    "Daria",
-    "Elena"
   ]
 }

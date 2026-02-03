@@ -1,6 +1,6 @@
 {
   "countryId": 193,
-  "maleNames": [
+  "names": [
     "Filippo",
     "Nicola",
     "Alessandro",
@@ -31,17 +31,5 @@
     "Giuseppe",
     "Daniele",
     "Paolo"
-  ],
-  "femaleNames": [
-    "Giulia",
-    "Sofia",
-    "Elena",
-    "Martina",
-    "Aurora",
-    "Chiara",
-    "Alice",
-    "Giorgia",
-    "Sara",
-    "Beatrice"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "countryId": 62,
-  "maleNames": [
+  "names": [
     "Bertrand",
     "Edmond",
     "Issa",
@@ -51,17 +51,5 @@
     "Yacouba",
     "Zakaria",
     "Zéphirin"
-  ],
-  "femaleNames": [
-    "Fatoumata",
-    "Mariam",
-    "Awa",
-    "Adjaratou",
-    "Sali",
-    "Aminata",
-    "Alimata",
-    "Bintou",
-    "Minata",
-    "Zalissa"
   ]
 }

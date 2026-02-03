@@ -1,6 +1,6 @@
 {
   "countryId": 82,
-  "maleNames": [
+  "names": [
     "Ali",
     "Khalid",
     "Ahmed",
@@ -51,17 +51,5 @@
     "Yasser",
     "Talal",
     "Buti"
-  ],
-  "femaleNames": [
-    "Fatima",
-    "Maryam",
-    "Latifa",
-    "Shaikha",
-    "Maitha",
-    "Hessa",
-    "Hind",
-    "Rawda",
-    "Amna",
-    "Hamda"
   ]
 }

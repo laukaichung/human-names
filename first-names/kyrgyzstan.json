@@ -1,6 +1,6 @@
 {
   "countryId": 146,
-  "maleNames": [
+  "names": [
     "Gulzhigit",
     "Joel",
     "Kayrat",
@@ -16,6 +16,5 @@
     "Marsel",
     "Kimi",
     "Farhat"
-  ],
-  "femaleNames": ["Aisuluu", "Bektur", "Meerim", "Adel", "Aruuke"]
+  ]
 }

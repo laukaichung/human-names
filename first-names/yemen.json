@@ -1,6 +1,6 @@
 {
   "countryId": 173,
-  "maleNames": [
+  "names": [
     "Abdulwasea",
     "Ahmed",
     "Nasser",
@@ -31,17 +31,5 @@
     "Khalid",
     "Saad",
     "Ali"
-  ],
-  "femaleNames": [
-    "Fatima",
-    "Amal",
-    "Khadeejah",
-    "Bushra",
-    "Arwa",
-    "Muna",
-    "Zainab",
-    "Hanan",
-    "Rania",
-    "Afrah"
   ]
 }

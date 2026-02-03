@@ -1,6 +1,6 @@
 {
   "countryId": 35,
-  "maleNames": [
+  "names": [
     "Aleksandr",
     "Sergey",
     "Dmitry",
@@ -31,17 +31,5 @@
     "Fedor",
     "Arseny",
     "Timofey"
-  ],
-  "femaleNames": [
-    "Anastasia",
-    "Maria",
-    "Sofia",
-    "Daria",
-    "Anna",
-    "Elizabeth",
-    "Victoria",
-    "Elena",
-    "Natalia",
-    "Olga"
   ]
 }

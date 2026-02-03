@@ -1,6 +1,6 @@
 {
   "countryId": 57,
-  "maleNames": [
+  "names": [
     "Eran",
     "Manor",
     "Oscar",
@@ -51,17 +51,5 @@
     "Ofir",
     "Gal",
     "Yaniv"
-  ],
-  "femaleNames": [
-    "Abigail",
-    "Tamar",
-    "Maya",
-    "Noa",
-    "Ayala",
-    "Sarah",
-    "Yael",
-    "Ella",
-    "Libi",
-    "Lia"
   ]
 }

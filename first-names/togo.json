@@ -1,6 +1,6 @@
 {
   "countryId": 130,
-  "maleNames": [
+  "names": [
     "Ihlas",
     "Dene",
     "Laba",
@@ -31,17 +31,5 @@
     "Boma",
     "Gnama",
     "Ouro"
-  ],
-  "femaleNames": [
-    "Abla",
-    "Akossiwa",
-    "Afou",
-    "Essi",
-    "Mablé",
-    "Sika",
-    "Ayawa",
-    "Adjowa",
-    "Adjo",
-    "Akouvi"
   ]
 }

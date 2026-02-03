@@ -1,6 +1,6 @@
 {
   "countryId": 200,
-  "maleNames": [
+  "names": [
     "Osian",
     "Dylan",
     "Rhys",
@@ -51,17 +51,5 @@
     "Jude",
     "Logan",
     "Roman"
-  ],
-  "femaleNames": [
-    "Ffion",
-    "Seren",
-    "Mali",
-    "Eleri",
-    "Cadi",
-    "Lowri",
-    "Eira",
-    "Nia",
-    "Heledd",
-    "Anwen"
   ]
 }
