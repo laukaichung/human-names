@@ -50,13 +50,13 @@ jobs:
             files.forEach(file => {
               try {
                 const data = JSON.parse(fs.readFileSync(path.join(sourcePath, file), 'utf8'));
-                const countryId = data.countryId;
+                const teamId = data.teamId;
                 const names = data.names || [];
 
                 names.forEach(name => {
                   list.push({
                     id: nextId++,
-                    countryId: countryId,
+                    teamId: teamId,
                     name: name
                   });
                 });
