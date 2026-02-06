@@ -22,5 +22,5 @@ tmp/
 temp/
 node_modules
 
-/first-names/batch/*
-/last-names/batch/*
+/first-names/batch/
+/last-names/batch/
