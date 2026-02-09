@@ -1,25 +1,11 @@
 {
-  "teamId": 130,
+  "teamId": 141,
   "names": [
-    "Popović",
-    "Marković",
-    "Vuković",
-    "Kovačević",
-    "Radović",
-    "Ivanović",
-    "Jovanović",
-    "Bulatović",
-    "Sekulović",
-    "Knežević",
-    "Petrović",
-    "Bakić",
-    "Pavlićević",
-    "Dragović",
-    "Vujović",
-    "Savović",
-    "Vlahović",
-    "Bojović",
-    "Đukanović",
-    "Nikolić"
+    "Adžić", "Bakić", "Brnović", "Bulatović", "Camaj", 
+    "Džuda", "Đukanović", "Janković", "Jovetić", "Jovović", 
+    "Krstović", "Kuč", "Lončar", "Marušić", "Mugoša", 
+    "Nikić", "Osmajić", "Petković", "Popović", "Radulović", 
+    "Radunović", "Rubežić", "Savić", "Šipčić", "Tući", 
+    "Vešović", "Vujačić", "Vukčević", "Vukotić", "Vuković"
   ]
 }
