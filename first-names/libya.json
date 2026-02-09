@@ -1,20 +1,11 @@
 {
   "teamId": 120,
   "names": [
-    "Hamdou",
-    "Mutasim",
-    "Fadel",
-    "Ahmed",
-    "Mohamed",
-    "Ali",
-    "Saeid",
-    "Tahis",
-    "Sanad",
-    "Anas",
-    "Ismael",
-    "Murad",
-    "Faisal",
-    "Osama",
-    "Salem"
+    "Hamdou", "Mutasim", "Fadel", "Ahmed", "Mohamed", 
+    "Ali", "Saeid", "Tahis", "Sanad", "Anas", 
+    "Ismael", "Murad", "Faisal", "Osama", "Salem",
+    "Moayed", "Ayman", "Subhi", "Tahir", "Majdi", 
+    "Yousef", "Mahmoud", "Muhannad", "Hussain", "Omran", 
+    "Ezoo", "Saif", "Bashir", "Noureddine", "Abdelaziz"
   ]
 }
