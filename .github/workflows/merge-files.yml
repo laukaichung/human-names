@@ -3,11 +3,12 @@ name: Normalize and Merge Name Databases
 on:
   push:
     paths:
-      - 'first-names/*.json' # Added for explicit file matching
-      - 'last-names/*.json'
+      - 'teams/first-names/*.json'
+      - 'teams/last-names/*.json'
+      - 'downloadable-teams/first-names/*.json'
+      - 'downloadable-teams/last-names/*.json'
   workflow_dispatch:
 
-# Added: Explicit permissions to allow pushing changes
 permissions:
   contents: write
 
@@ -17,8 +18,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Fetches all history for all branches and tags
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -31,59 +30,65 @@ jobs:
           const fs = require('fs');
           const path = require('path');
 
-          const outputDir = path.join(process.cwd(), 'public');
-          if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+          const parentFolders = ['teams', 'downloadable-teams'];
+          const subFolders = ['first-names', 'last-names'];
+          const outputRootDir = path.join(process.cwd(), 'output');
 
-          const processType = (folderName) => {
-            // Ensure this matches your actual folder name: 'first-names'
-            const sourcePath = path.join(process.cwd(), folderName);
+          parentFolders.forEach(parent => {
+            subFolders.forEach(sub => {
+              const sourcePath = path.join(process.cwd(), parent, sub);
           
-            if (!fs.existsSync(sourcePath)) {
-              console.error('Directory not found: ' + sourcePath);
-              return;
-            }
+              if (!fs.existsSync(sourcePath)) return;
 
-            const files = fs.readdirSync(sourcePath).filter(f => f.endsWith('.json'));
-            const list = [];
-            let nextId = 1;
+              // Target directory: output/teams/ or output/downloadable-teams/
+              const targetDir = path.join(outputRootDir, parent);
+              if (!fs.existsSync(targetDir)) fs.mkdirSync(targetDir, { recursive: true });
 
-            files.forEach(file => {
-              try {
-                const data = JSON.parse(fs.readFileSync(path.join(sourcePath, file), 'utf8'));
-                const teamId = data.teamId;
-                const names = data.names || [];
+              const files = fs.readdirSync(sourcePath).filter(f => f.endsWith('.json'));
+              const mergedList = [];
+              let nextId = 1;
 
-                names.forEach(name => {
-                  list.push({
-                    id: nextId++,
-                    teamId: teamId,
-                    name: name
+              files.forEach(file => {
+                try {
+                  const data = JSON.parse(fs.readFileSync(path.join(sourcePath, file), 'utf8'));
+                  const teamId = data.teamId;
+                  const names = data.names || [];
+
+                  // Flattening the names into the merged list
+                  names.forEach(name => {
+                    mergedList.push({
+                      id: nextId++,
+                      teamId: teamId,
+                      name: name
+                    });
                   });
-                });
-              } catch (e) {
-                console.error('Error parsing ' + file + ':', e.message);
-              }
-            });
-          
-            fs.writeFileSync(path.join(outputDir, folderName + '.json'), JSON.stringify(list, null, 2));
-            console.log('Processed ' + folderName + ': ' + list.length + ' entries');
-          };
+                } catch (e) {
+                  console.error('Error parsing ' + file + ':', e.message);
+                }
+              });
 
-          processType('first-names');
-          processType('last-names');
+              // Write the merged file: e.g., output/downloadable-teams/first-names.json
+              const outputFileName = sub + '.json';
+              const finalOutputPath = path.join(targetDir, outputFileName);
+          
+              fs.writeFileSync(finalOutputPath, JSON.stringify(mergedList, null, 2));
+              console.log('Successfully created: ' + finalOutputPath);
+            });
+          });
           "
 
       - name: Commit and Push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add public/*.json
-          # Check if there are changes before committing to avoid 'nothing to commit' errors
+          
+          # Stage the output directory
+          git add output/
+          
           if git diff --quiet && git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: flatten and merge name databases [skip ci]"
-            # Pull with rebase to handle remote changes gracefully
+            git commit -m "chore: sync output merged files [skip ci]"
             git pull --rebase origin main
             git push origin main
           fi
