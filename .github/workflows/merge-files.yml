@@ -34,19 +34,19 @@ jobs:
           const subFolders = ['first-names', 'last-names'];
           const outputRootDir = path.join(process.cwd(), 'output');
 
+          // GLOBAL ID: Defined outside the loops so it never resets
+          let globalNextId = 1;
+
           parentFolders.forEach(parent => {
             subFolders.forEach(sub => {
               const sourcePath = path.join(process.cwd(), parent, sub);
-          
               if (!fs.existsSync(sourcePath)) return;
 
-              // Target directory: output/teams/ or output/downloadable-teams/
               const targetDir = path.join(outputRootDir, parent);
               if (!fs.existsSync(targetDir)) fs.mkdirSync(targetDir, { recursive: true });
 
               const files = fs.readdirSync(sourcePath).filter(f => f.endsWith('.json'));
               const mergedList = [];
-              let nextId = 1;
 
               files.forEach(file => {
                 try {
@@ -54,10 +54,9 @@ jobs:
                   const teamId = data.teamId;
                   const names = data.names || [];
 
-                  // Flattening the names into the merged list
                   names.forEach(name => {
                     mergedList.push({
-                      id: nextId++,
+                      id: globalNextId++, // Increments across ALL files
                       teamId: teamId,
                       name: name
                     });
@@ -67,12 +66,12 @@ jobs:
                 }
               });
 
-              // Write the merged file: e.g., output/downloadable-teams/first-names.json
               const outputFileName = sub + '.json';
-              const finalOutputPath = path.join(targetDir, outputFileName);
-          
-              fs.writeFileSync(finalOutputPath, JSON.stringify(mergedList, null, 2));
-              console.log('Successfully created: ' + finalOutputPath);
+              fs.writeFileSync(
+                path.join(targetDir, outputFileName),
+                JSON.stringify(mergedList, null, 2)
+              );
+              console.log('Processed ' + parent + '/' + sub + '. Current Global ID: ' + (globalNextId - 1));
             });
           });
           "
@@ -81,14 +80,11 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # Stage the output directory
           git add output/
-          
           if git diff --quiet && git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: sync output merged files [skip ci]"
+            git commit -m "chore: update output with global unique IDs [skip ci]"
             git pull --rebase origin main
             git push origin main
           fi
