@@ -7,6 +7,7 @@ on:
       - 'teams/last-names/*.json'
       - 'add-on-teams/first-names/*.json'
       - 'add-on-teams/last-names/*.json'
+      - 'female-teams/first-names/*.json'
   workflow_dispatch:
 
 permissions:
@@ -30,7 +31,7 @@ jobs:
           const fs = require('fs');
           const path = require('path');
 
-          const parentFolders = ['teams', 'add-on-teams'];
+          const parentFolders = ['teams', 'add-on-teams', 'female-teams'];
           const subFolders = ['first-names', 'last-names'];
           const outputRootDir = path.join(process.cwd(), 'output');
 
