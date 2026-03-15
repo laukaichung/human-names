@@ -22,5 +22,5 @@ tmp/
 temp/
 node_modules
 
-/teams/first-names/batch/
-/teams/last-names/batch/
+/teams/batch/
+/add-on-teams/batch/
