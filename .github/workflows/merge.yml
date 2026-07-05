@@ -1,20 +1,16 @@
-name: Normalize and Merge Name Databases
+name: Combine All Countries Into Single JSON
 
 on:
   push:
     paths:
-      - 'teams/first-names/*.json'
-      - 'teams/last-names/*.json'
-      - 'add-on-teams/first-names/*.json'
-      - 'add-on-teams/last-names/*.json'
-      - 'female-teams/first-names/*.json'
+      - 'data/*.json'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  merge-json:
+  combine-json:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -25,13 +21,13 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Run Normalization Script
+      - name: Combine Files Script
         run: |
           node -e "
           const fs = require('fs');
           const path = require('path');
 
-          const parentFolders = ['teams', 'add-on-teams', 'female-teams'];
+          const dataDir = path.join(process.cwd(), 'data');
           const distDir = path.join(process.cwd(), 'dist');
 
           // Ensure dist folder exists
@@ -39,60 +35,31 @@ jobs:
             fs.mkdirSync(distDir, { recursive: true });
           }
 
-          const countryRegistry = {};
+          if (!fs.existsSync(dataDir)) {
+            console.error('Error: data folder does not exist!');
+            process.exit(1);
+          }
 
-          parentFolders.forEach(parent => {
-            ['first-names', 'last-names'].forEach(sub => {
-              const sourcePath = path.join(process.cwd(), parent, sub);
-              if (!fs.existsSync(sourcePath)) return;
+          const combinedArray = [];
+          const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json'));
 
-              const files = fs.readdirSync(sourcePath).filter(f => f.endsWith('.json'));
-
-              files.forEach(file => {
-                try {
-                  const filePath = path.join(sourcePath, file);
-                  const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-                  const teamId = data.teamId;
-                  const names = data.names || [];
-
-                  // Initialize country object with separate gender arrays
-                  if (!countryRegistry[file]) {
-                    countryRegistry[file] = {
-                      countryId: teamId,
-                      maleFirstNames: [],
-                      femaleFirstNames: [],
-                      lastNames: []
-                    };
-                  }
-
-                  if (teamId && !countryRegistry[file].countryId) {
-                    countryRegistry[file].countryId = teamId;
-                  }
-
-                  // Routing logic based on folder name
-                  if (sub === 'last-names') {
-                    countryRegistry[file].lastNames.push(...names);
-                  } else if (sub === 'first-names') {
-                    if (parent === 'female-teams') {
-                      countryRegistry[file].femaleFirstNames.push(...names);
-                    } else {
-                      countryRegistry[file].maleFirstNames.push(...names);
-                    }
-                  }
-
-                } catch (e) {
-                  console.error('Error processing ' + parent + '/' + sub + '/' + file + ':', e.message);
-                }
-              });
-            });
+          files.forEach(file => {
+            try {
+              const filePath = path.join(dataDir, file);
+              const fileData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+          
+              // Push the country object directly into our global array
+              combinedArray.push(fileData);
+              console.log('Added ' + file + ' to combined dataset.');
+            } catch (e) {
+              console.error('Error reading ' + file + ':', e.message);
+            }
           });
 
-          // Write grouped data into individual files inside /dist
-          Object.keys(countryRegistry).forEach(file => {
-            const outputPath = path.join(distDir, file);
-            fs.writeFileSync(outputPath, JSON.stringify(countryRegistry[file], null, 2));
-            console.log('Successfully created/updated ' + path.join('dist', file));
-          });
+          // Write the entire array into a single target file
+          const outputPath = path.join(distDir, 'all-countries.json');
+          fs.writeFileSync(outputPath, JSON.stringify(combinedArray, null, 2));
+          console.log('Successfully created combined file at: dist/all-countries.json');
           "
 
       - name: Commit and Push changes
@@ -103,7 +70,7 @@ jobs:
           if git diff --quiet && git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: merge country databases into dist [skip ci]"
+            git commit -m "chore: combine country data into a single file [skip ci]"
             git pull --rebase origin main
             git push origin main
           fi
