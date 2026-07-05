@@ -1,0 +1,109 @@
+name: Normalize and Merge Name Databases
+
+on:
+  push:
+    paths:
+      - 'teams/first-names/*.json'
+      - 'teams/last-names/*.json'
+      - 'add-on-teams/first-names/*.json'
+      - 'add-on-teams/last-names/*.json'
+      - 'female-teams/first-names/*.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  merge-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run Normalization Script
+        run: |
+          node -e "
+          const fs = require('fs');
+          const path = require('path');
+
+          const parentFolders = ['teams', 'add-on-teams', 'female-teams'];
+          const distDir = path.join(process.cwd(), 'dist');
+
+          // Ensure dist folder exists
+          if (!fs.existsSync(distDir)) {
+            fs.mkdirSync(distDir, { recursive: true });
+          }
+
+          const countryRegistry = {};
+
+          parentFolders.forEach(parent => {
+            ['first-names', 'last-names'].forEach(sub => {
+              const sourcePath = path.join(process.cwd(), parent, sub);
+              if (!fs.existsSync(sourcePath)) return;
+
+              const files = fs.readdirSync(sourcePath).filter(f => f.endsWith('.json'));
+
+              files.forEach(file => {
+                try {
+                  const filePath = path.join(sourcePath, file);
+                  const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+                  const teamId = data.teamId;
+                  const names = data.names || [];
+
+                  // Initialize country object with separate gender arrays
+                  if (!countryRegistry[file]) {
+                    countryRegistry[file] = {
+                      countryId: teamId,
+                      maleFirstNames: [],
+                      femaleFirstNames: [],
+                      lastNames: []
+                    };
+                  }
+
+                  if (teamId && !countryRegistry[file].countryId) {
+                    countryRegistry[file].countryId = teamId;
+                  }
+
+                  // Routing logic based on folder name
+                  if (sub === 'last-names') {
+                    countryRegistry[file].lastNames.push(...names);
+                  } else if (sub === 'first-names') {
+                    if (parent === 'female-teams') {
+                      countryRegistry[file].femaleFirstNames.push(...names);
+                    } else {
+                      countryRegistry[file].maleFirstNames.push(...names);
+                    }
+                  }
+
+                } catch (e) {
+                  console.error('Error processing ' + parent + '/' + sub + '/' + file + ':', e.message);
+                }
+              });
+            });
+          });
+
+          // Write grouped data into individual files inside /dist
+          Object.keys(countryRegistry).forEach(file => {
+            const outputPath = path.join(distDir, file);
+            fs.writeFileSync(outputPath, JSON.stringify(countryRegistry[file], null, 2));
+            console.log('Successfully created/updated ' + path.join('dist', file));
+          });
+          "
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add dist/
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: merge country databases into dist [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          fi
