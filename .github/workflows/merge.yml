@@ -1,9 +1,10 @@
-name: Combine All Countries Into Single JSON
+name: Group and Combine Base and Add-on Data
 
 on:
   push:
     paths:
-      - 'data/*.json'
+      - 'data/base/*.json'
+      - 'data/add-on/*.json'
   workflow_dispatch:
 
 permissions:
@@ -21,13 +22,13 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Combine Files Script
+      - name: Process Folders Script
         run: |
           node -e "
           const fs = require('fs');
           const path = require('path');
 
-          const dataDir = path.join(process.cwd(), 'data');
+          const foldersToProcess = ['base', 'add-on'];
           const distDir = path.join(process.cwd(), 'dist');
 
           // Ensure dist folder exists
@@ -35,31 +36,33 @@ jobs:
             fs.mkdirSync(distDir, { recursive: true });
           }
 
-          if (!fs.existsSync(dataDir)) {
-            console.error('Error: data folder does not exist!');
-            process.exit(1);
-          }
-
-          const combinedArray = [];
-          const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json'));
-
-          files.forEach(file => {
-            try {
-              const filePath = path.join(dataDir, file);
-              const fileData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-          
-              // Push the country object directly into our global array
-              combinedArray.push(fileData);
-              console.log('Added ' + file + ' to combined dataset.');
-            } catch (e) {
-              console.error('Error reading ' + file + ':', e.message);
+          foldersToProcess.forEach(folder => {
+            const sourcePath = path.join(process.cwd(), 'data', folder);
+            if (!fs.existsSync(sourcePath)) {
+              console.log('Skipping non-existent path: ' + sourcePath);
+              return;
             }
-          });
 
-          // Write the entire array into a single target file
-          const outputPath = path.join(distDir, 'all-countries.json');
-          fs.writeFileSync(outputPath, JSON.stringify(combinedArray, null, 2));
-          console.log('Successfully created combined file at: dist/all-countries.json');
+            const combinedArray = [];
+            const files = fs.readdirSync(sourcePath).filter(f => f.endsWith('.json'));
+
+            files.forEach(file => {
+              try {
+                const filePath = path.join(sourcePath, file);
+                const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
+                // Push the exact object data unmodified
+                combinedArray.push(data);
+              } catch (e) {
+                console.error('Error processing ' + folder + '/' + file + ':', e.message);
+              }
+            });
+
+            // Write the array directly to dist/base.json or dist/add-on.json
+            const outputPath = path.join(distDir, folder + '.json');
+            fs.writeFileSync(outputPath, JSON.stringify(combinedArray, null, 2));
+            console.log('Successfully created: dist/' + folder + '.json (' + combinedArray.length + ' items)');
+          });
           "
 
       - name: Commit and Push changes
@@ -70,7 +73,7 @@ jobs:
           if git diff --quiet && git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: combine country data into a single file [skip ci]"
+            git commit -m "chore: update base and add-on database bundles [skip ci]"
             git pull --rebase origin main
             git push origin main
           fi
